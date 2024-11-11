@@ -1,0 +1,5 @@
+/home/rudranil/oddity_rover/install/canopen_core/lib/libnode_canopen_driver.so
+/home/rudranil/oddity_rover/install/canopen_core/lib/libnode_canopen_master.so
+/home/rudranil/oddity_rover/install/canopen_core/lib/libdevice_container.so
+/home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/export_canopen_coreExport.cmake
+/home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/export_canopen_coreExport-noconfig.cmake

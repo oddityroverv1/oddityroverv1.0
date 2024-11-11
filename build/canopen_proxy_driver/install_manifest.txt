@@ -1,0 +1,5 @@
+/home/rudranil/oddity_rover/install/canopen_proxy_driver/lib/liblifecycle_proxy_driver.so
+/home/rudranil/oddity_rover/install/canopen_proxy_driver/lib/libproxy_driver.so
+/home/rudranil/oddity_rover/install/canopen_proxy_driver/lib/libnode_canopen_proxy_driver.so
+/home/rudranil/oddity_rover/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/export_canopen_proxy_driverExport.cmake
+/home/rudranil/oddity_rover/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/export_canopen_proxy_driverExport-noconfig.cmake

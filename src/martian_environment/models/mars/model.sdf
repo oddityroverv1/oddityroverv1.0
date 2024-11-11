@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!DOCTYPE xml>
+<sdf version="1.7">
+
+<model name="Martian_soil">
+<pose>0 0 0.4 0 0 0</pose>
+<static>true</static>
+<link name="ground">
+<collision name="collision">
+<geometry>
+<mesh>
+<uri>model://mars/mars_surface/terrain.dae</uri>
+<scale>2 2 2</scale>
+</mesh>
+</geometry>
+</collision>
+
+<visual name="visual">
+<geometry>
+<mesh>
+<uri>model://mars/mars_surface/terrain.dae</uri>
+<scale>2 2 2</scale>
+</mesh>
+</geometry>
+<material>
+    <script>
+      <uri>model://mars/mars_surface/scripts</uri>
+      <uri>model://mars/mars_surface/textures</uri>
+      <name>RepeatedSoil/Diffuse</name>
+    </script>
+  </material>
+</visual>
+</link>
+</model>
+</sdf>

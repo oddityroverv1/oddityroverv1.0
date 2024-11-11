@@ -1,0 +1,903 @@
+[0.025s] Invoking command in '/home/rudranil/oddity_rover/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake /home/rudranil/oddity_rover/src/ros2_canopen/lely_core_libraries -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudranil/oddity_rover/install/lely_core_libraries
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.214s] -- The CXX compiler identification is GNU 11.4.0
+[0.226s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.363s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.364s] -- Detecting C compile features
+[0.364s] -- Detecting C compile features - done
+[0.368s] -- Detecting CXX compiler ABI info
+[0.506s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.517s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.524s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.763s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.871s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.204s] -- Configuring done
+[1.212s] -- Generating done
+[1.214s] -- Build files have been written to: /home/rudranil/oddity_rover/build/lely_core_libraries
+[1.223s] Invoked command in '/home/rudranil/oddity_rover/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake /home/rudranil/oddity_rover/src/ros2_canopen/lely_core_libraries -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudranil/oddity_rover/install/lely_core_libraries
+[1.226s] Invoking command in '/home/rudranil/oddity_rover/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake --build /home/rudranil/oddity_rover/build/lely_core_libraries -- -j12 -l12
+[1.316s] [ 12%] [34m[1mCreating directories for 'upstr_lely_core_libraries'[0m
+[1.330s] [ 12%] Built target ament_cmake_python_symlink_cogen
+[1.332s] [ 12%] Built target ament_cmake_python_symlink_cogen_setup
+[1.461s] [ 25%] [34m[1mPerforming download step (git clone) for 'upstr_lely_core_libraries'[0m
+[1.503s] Cloning into 'upstream'...
+[1.728s] running install_scripts
+[1.730s] running egg_info
+[1.731s] creating cogen.egg-info
+[1.731s] writing cogen.egg-info/PKG-INFO
+[1.731s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[1.731s] writing entry points to cogen.egg-info/entry_points.txt
+[1.731s] writing top-level names to cogen.egg-info/top_level.txt
+[1.732s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[1.735s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[1.735s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[1.762s] running egg_info
+[1.763s] writing cogen.egg-info/PKG-INFO
+[1.763s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[1.763s] writing entry points to cogen.egg-info/entry_points.txt
+[1.763s] writing top-level names to cogen.egg-info/top_level.txt
+[1.766s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[1.767s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[1.769s] Installing cogen script to scripts
+[1.780s] [ 25%] Built target ament_cmake_python_build_cogen_egg
+[1.821s] [ 25%] Built target ament_cmake_python_build_cogen_scripts
+[6.934s] HEAD is now at b63a0b6f co: fix co_time_of_day_set() to actually store the result
+[7.037s] [ 37%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[7.100s] HEAD is now at b63a0b6f co: fix co_time_of_day_set() to actually store the result
+[7.105s] Checking patch configure.ac...
+[7.105s] Hunk #1 succeeded at 577 (offset 8 lines).
+[7.105s] Checking patch python/dcf-tools/Makefile.am...
+[7.105s] Applied patch configure.ac cleanly.
+[7.106s] Applied patch python/dcf-tools/Makefile.am cleanly.
+[7.119s] [ 50%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[7.172s] [ 62%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[10.475s] libtoolize: putting auxiliary files in '.'.
+[10.475s] libtoolize: copying file './ltmain.sh'
+[10.511s] libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+[10.511s] libtoolize: copying file 'm4/libtool.m4'
+[10.563s] libtoolize: copying file 'm4/ltoptions.m4'
+[10.620s] libtoolize: copying file 'm4/ltsugar.m4'
+[10.673s] libtoolize: copying file 'm4/ltversion.m4'
+[10.731s] libtoolize: copying file 'm4/lt~obsolete.m4'
+[12.119s] configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+[12.119s] configure.ac:17: You should run autoupdate.
+[12.119s] ./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+[12.119s] configure.ac:17: the top level
+[12.119s] configure.ac:442: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+[12.119s] ./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+[12.119s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[12.119s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[12.119s] configure.ac:442: the top level
+[13.058s] configure.ac:17: installing './compile'
+[13.061s] configure.ac:6: installing './config.guess'
+[13.064s] configure.ac:6: installing './config.sub'
+[13.068s] configure.ac:7: installing './install-sh'
+[13.071s] configure.ac:7: installing './missing'
+[13.073s] configure.ac:610: installing './tap-driver.sh'
+[13.295s] src/can/Makefile.am: installing './depcomp'
+[13.779s] parallel-tests: installing './test-driver'
+[14.041s] checking build system type... x86_64-pc-linux-gnu
+[14.041s] checking host system type... x86_64-pc-linux-gnu
+[14.041s] checking target system type... x86_64-pc-linux-gnu
+[14.055s] checking for a BSD-compatible install... /usr/bin/install -c
+[14.062s] checking whether build environment is sane... yes
+[14.076s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[14.076s] checking for gawk... no
+[14.076s] checking for mawk... mawk
+[14.087s] checking whether make sets $(MAKE)... yes
+[14.098s] checking whether make supports nested variables... yes
+[14.107s] checking whether to enable maintainer-specific portions of Makefiles... yes
+[14.107s] checking whether make supports nested variables... (cached) yes
+[14.114s] checking for a sed that does not truncate output... /usr/bin/sed
+[14.116s] checking whether to build with code coverage support... no
+[14.117s] checking for valgrind... no
+[14.131s] checking whether make supports the include directive... yes (GNU style)
+[14.131s] checking for gcc... gcc
+[14.214s] checking whether the C compiler works... yes
+[14.214s] checking for C compiler default output file name... a.out
+[14.253s] checking for suffix of executables... 
+[14.298s] checking whether we are cross compiling... no
+[14.322s] checking for suffix of object files... o
+[14.343s] checking whether the compiler supports GNU C... yes
+[14.366s] checking whether gcc accepts -g... yes
+[14.414s] checking for gcc option to enable C11 features... none needed
+[14.453s] checking whether gcc understands -c and -o together... yes
+[14.498s] checking dependency style of gcc... gcc3
+[14.524s] checking for stdio.h... yes
+[14.554s] checking for stdlib.h... yes
+[14.584s] checking for string.h... yes
+[14.613s] checking for inttypes.h... yes
+[14.642s] checking for stdint.h... yes
+[14.675s] checking for strings.h... yes
+[14.707s] checking for sys/stat.h... yes
+[14.738s] checking for sys/types.h... yes
+[14.774s] checking for unistd.h... yes
+[14.808s] checking for wchar.h... yes
+[14.845s] checking for minix/config.h... no
+[14.882s] checking whether it is safe to define __EXTENSIONS__... yes
+[14.912s] checking whether _XOPEN_SOURCE should be defined... no
+[14.913s] checking for g++... g++
+[14.970s] checking whether the compiler supports GNU C++... yes
+[14.993s] checking whether g++ accepts -g... yes
+[15.062s] checking for g++ option to enable C++11 features... none needed
+[15.109s] checking dependency style of g++... gcc3
+[15.150s] checking whether g++ supports C++11 features with -std=gnu++11... yes
+[15.177s] checking how to print strings... printf
+[15.178s] checking for a sed that does not truncate output... (cached) /usr/bin/sed
+[15.184s] checking for grep that handles long lines and -e... /usr/bin/grep
+[15.187s] checking for egrep... /usr/bin/grep -E
+[15.191s] checking for fgrep... /usr/bin/grep -F
+[15.199s] checking for ld used by gcc... /usr/bin/ld
+[15.204s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[15.209s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[15.238s] checking the name lister (/usr/bin/nm -B) interface... BSD nm
+[15.238s] checking whether ln -s works... yes
+[15.248s] checking the maximum length of command line arguments... 1572864
+[15.254s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[15.254s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[15.254s] checking for /usr/bin/ld option to reload object files... -r
+[15.255s] checking for objdump... objdump
+[15.255s] checking how to recognize dependent libraries... pass_all
+[15.256s] checking for dlltool... no
+[15.256s] checking how to associate runtime and link libraries... printf %s\n
+[15.256s] checking for ar... ar
+[15.290s] checking for archiver @FILE support... @
+[15.290s] checking for strip... strip
+[15.290s] checking for ranlib... ranlib
+[15.394s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[15.398s] checking for sysroot... no
+[15.407s] checking for a working dd... /usr/bin/dd
+[15.414s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[15.436s] checking for mt... mt
+[15.441s] checking if mt is a manifest tool... no
+[15.488s] checking for dlfcn.h... yes
+[15.495s] checking for objdir... .libs
+[15.595s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[15.595s] checking for gcc option to produce PIC... -fPIC -DPIC
+[15.625s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[15.705s] checking if gcc static flag -static works... yes
+[15.748s] checking if gcc supports -c -o file.o... yes
+[15.749s] checking if gcc supports -c -o file.o... (cached) yes
+[15.764s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[15.797s] checking whether -lc should be explicitly linked in... no
+[15.871s] checking dynamic linker characteristics... GNU/Linux ld.so
+[15.872s] checking how to hardcode library paths into programs... immediate
+[15.874s] checking whether stripping libraries is possible... yes
+[15.874s] checking if libtool supports shared libraries... yes
+[15.874s] checking whether to build shared libraries... yes
+[15.874s] checking whether to build static libraries... no
+[15.913s] checking how to run the C++ preprocessor... g++ -std=gnu++11 -E
+[16.037s] checking for ld used by g++ -std=gnu++11... /usr/bin/ld -m elf_x86_64
+[16.042s] checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[16.055s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[16.179s] checking for g++ -std=gnu++11 option to produce PIC... -fPIC -DPIC
+[16.211s] checking if g++ -std=gnu++11 PIC flag -fPIC -DPIC works... yes
+[16.295s] checking if g++ -std=gnu++11 static flag -static works... yes
+[16.344s] checking if g++ -std=gnu++11 supports -c -o file.o... yes
+[16.345s] checking if g++ -std=gnu++11 supports -c -o file.o... (cached) yes
+[16.345s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[16.350s] checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+[16.350s] checking how to hardcode library paths into programs... immediate
+[16.351s] checking for windres... no
+[16.438s] checking for timer_create in -lrt... yes
+[16.477s] checking how to run the C preprocessor... gcc -E
+[16.526s] checking whether gcc is Clang... no
+[16.593s] checking whether pthreads work with "-pthread" and "-lpthread"... yes
+[16.641s] checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+[16.641s] checking whether more special flags are required for pthreads... no
+[16.689s] checking for PTHREAD_PRIO_INHERIT... yes
+[16.692s] checking for pkg-config... /usr/bin/pkg-config
+[16.695s] checking pkg-config is at least version 0.9.0... yes
+[16.701s] checking for cpputest >= 4... no
+[16.748s] checking for valgrind/valgrind.h... no
+[16.804s] checking for linux/can.h... yes
+[16.859s] checking for linux/can/error.h... yes
+[16.886s] checking for bluetooth/bluetooth.h... no
+[16.914s] checking for bluetooth/rfcomm.h... no
+[17.042s] checking for library containing str2ba... no
+[17.103s] checking for ifaddrs.h... yes
+[17.162s] checking for linux/can/netlink.h... yes
+[17.222s] checking for linux/can/raw.h... yes
+[17.309s] checking for linux/rtnetlink.h... yes
+[17.374s] checking for sys/epoll.h... yes
+[17.436s] checking for sys/ioctl.h... yes
+[17.466s] checking for a Python interpreter with version >= 3.3... python3
+[17.466s] checking for python3... /usr/bin/python3
+[17.492s] checking for python3 version... 3.10
+[17.517s] checking for python3 platform... linux
+[17.517s] checking for GNU default python3 prefix... ${prefix}
+[17.517s] checking for GNU default python3 exec_prefix... ${exec_prefix}
+[17.567s] checking for python3 script directory (pythondir)... ${PYTHON_PREFIX}/lib/python3.10/site-packages
+[17.617s] checking for python3 extension module directory (pyexecdir)... ${PYTHON_EXEC_PREFIX}/lib/python3.10/site-packages
+[17.618s] checking for gawk... (cached) mawk
+[17.662s] checking that generated files are newer than configure... done
+[17.664s] configure: creating ./config.status
+[19.666s] config.status: creating doc/Doxyfile
+[19.712s] config.status: creating doc/Makefile
+[19.747s] config.status: creating include/Makefile
+[19.786s] config.status: creating pkgconfig/liblely-can.pc
+[19.826s] config.status: creating pkgconfig/liblely-co.pc
+[19.866s] config.status: creating pkgconfig/liblely-coapp.pc
+[19.902s] config.status: creating pkgconfig/liblely-ev.pc
+[19.939s] config.status: creating pkgconfig/liblely-io.pc
+[19.975s] config.status: creating pkgconfig/liblely-io2.pc
+[20.015s] config.status: creating pkgconfig/liblely-libc.pc
+[20.053s] config.status: creating pkgconfig/liblely-libc_rt.pc
+[20.092s] config.status: creating pkgconfig/liblely-tap.pc
+[20.131s] config.status: creating pkgconfig/liblely-util.pc
+[20.168s] config.status: creating pkgconfig/Makefile
+[20.209s] config.status: creating python/can/Makefile
+[20.251s] config.status: creating python/dcf-tools/Makefile
+[20.293s] config.status: creating python/io/Makefile
+[20.334s] config.status: creating python/Makefile
+[20.370s] config.status: creating src/can/Makefile
+[20.409s] config.status: creating src/co/Makefile
+[20.449s] config.status: creating src/co/version.rc
+[20.487s] config.status: creating src/coapp/Makefile
+[20.527s] config.status: creating src/coapp/version.rc
+[20.565s] config.status: creating src/ev/Makefile
+[20.605s] config.status: creating src/ev/version.rc
+[20.644s] config.status: creating src/io/Makefile
+[20.683s] config.status: creating src/io2/Makefile
+[20.722s] config.status: creating src/io2/version.rc
+[20.763s] config.status: creating src/libc/Makefile
+[20.807s] config.status: creating src/libc/version.rc
+[20.847s] config.status: creating src/tap/Makefile
+[20.885s] config.status: creating src/tap/version.rc
+[20.924s] config.status: creating src/util/Makefile
+[20.962s] config.status: creating src/util/version.rc
+[20.998s] config.status: creating src/Makefile
+[21.036s] config.status: creating tools/Makefile
+[21.078s] config.status: creating tools/version.dcf2c.rc
+[21.113s] config.status: creating test/co-nmt-master.dcf
+[21.152s] config.status: creating test/Makefile
+[21.191s] config.status: creating unit-tests/Makefile
+[21.232s] config.status: creating exec-wrapper.sh
+[21.261s] config.status: creating lcov-wrapper.sh
+[21.288s] config.status: creating Makefile
+[21.312s] config.status: creating config.h
+[21.336s] config.status: executing depfiles commands
+[23.454s] config.status: executing libtool commands
+[23.589s] [ 75%] [34m[1mPerforming build step for 'upstr_lely_core_libraries'[0m
+[23.621s] Making all in doc
+[23.626s] Making all in include
+[23.635s] Making all in src
+[23.655s] Making all in libc
+[23.663s]   CC       liblely_libc_la-clock.lo
+[23.664s]   CC       liblely_libc_la-stdatomic.lo
+[23.664s]   CC       liblely_libc_la-getopt.lo
+[23.665s]   CC       liblely_libc_la-string.lo
+[23.665s]   CC       liblely_libc_la-stdio.lo
+[23.665s]   CC       liblely_libc_la-stdlib.lo
+[23.665s]   CC       liblely_libc_la-strings.lo
+[23.666s]   CC       liblely_libc_la-sleep.lo
+[23.667s]   CC       liblely_libc_la-threads-pthread.lo
+[23.667s]   CC       liblely_libc_la-time.lo
+[23.776s]   CCLD     liblely-libc.la
+[23.952s] Making all in tap
+[23.958s]   CC       liblely_tap_la-tap.lo
+[24.103s]   CCLD     liblely-tap.la
+[24.319s] Making all in util
+[24.327s]   CC       liblely_util_la-bimap.lo
+[24.327s]   CC       liblely_util_la-mkjmp.lo
+[24.328s]   CC       liblely_util_la-sllist.lo
+[24.329s]   CC       liblely_util_la-bits.lo
+[24.329s]   CC       liblely_util_la-bitset.lo
+[24.329s]   CC       liblely_util_la-spscring.lo
+[24.329s]   CC       liblely_util_la-cmp.lo
+[24.330s]   CC       liblely_util_la-config.lo
+[24.333s]   CC       liblely_util_la-config_ini.lo
+[24.333s]   CC       liblely_util_la-daemon.lo
+[24.333s]   CC       liblely_util_la-diag.lo
+[24.333s]   CC       liblely_util_la-dllist.lo
+[24.505s]   CC       liblely_util_la-endian.lo
+[24.521s]   CC       liblely_util_la-errnum.lo
+[24.539s]   CXX      liblely_util_la-exception.lo
+[24.559s]   CC       liblely_util_la-fiber.lo
+[24.561s]   CC       liblely_util_la-frbuf.lo
+[24.567s]   CC       liblely_util_la-fwbuf.lo
+[24.574s]   CC       liblely_util_la-lex.lo
+[24.586s]   CC       liblely_util_la-membuf.lo
+[24.616s]   CC       liblely_util_la-pheap.lo
+[24.618s]   CC       liblely_util_la-print.lo
+[24.635s]   CC       liblely_util_la-rbtree.lo
+[24.696s]   CC       liblely_util_la-stop.lo
+[24.722s]   CC       liblely_util_la-time.lo
+[24.806s]   CC       liblely_util_la-ustring.lo
+[25.083s]   CXXLD    liblely-util.la
+[25.384s] Making all in can
+[25.392s]   CC       liblely_can_la-buf.lo
+[25.393s]   CC       liblely_can_la-msg.lo
+[25.393s]   CC       liblely_can_la-net.lo
+[25.394s]   CC       liblely_can_la-socket.lo
+[25.661s]   CCLD     liblely-can.la
+[25.910s] Making all in co
+[25.918s]   CC       liblely_co_la-crc.lo
+[25.918s]   CC       liblely_co_la-csdo.lo
+[25.919s]   CC       liblely_co_la-dcf.lo
+[25.919s]   CC       liblely_co_la-dev.lo
+[25.919s]   CC       liblely_co_la-gw.lo
+[25.920s]   CC       liblely_co_la-emcy.lo
+[25.920s]   CC       liblely_co_la-gw_txt.lo
+[25.924s]   CC       liblely_co_la-lss.lo
+[25.924s]   CC       liblely_co_la-nmt.lo
+[25.924s]   CC       liblely_co_la-nmt_boot.lo
+[25.924s]   CC       liblely_co_la-nmt_cfg.lo
+[25.925s]   CC       liblely_co_la-nmt_hb.lo
+[26.049s]   CC       liblely_co_la-nmt_srv.lo
+[26.152s]   CC       liblely_co_la-obj.lo
+[26.267s]   CC       liblely_co_la-pdo.lo
+[26.392s]   CC       liblely_co_la-rpdo.lo
+[26.400s]   CC       liblely_co_la-sdev.lo
+[26.571s]   CC       liblely_co_la-sdo.lo
+[26.654s]   CC       liblely_co_la-ssdo.lo
+[26.669s]   CC       liblely_co_la-sync.lo
+[26.684s]   CC       liblely_co_la-time.lo
+[26.782s]   CC       liblely_co_la-tpdo.lo
+[26.822s]   CC       liblely_co_la-type.lo
+[26.876s]   CC       liblely_co_la-val.lo
+[26.959s]   CC       liblely_co_la-wtm.lo
+[27.465s]   CCLD     liblely-co.la
+[27.790s] Making all in io
+[27.798s]   CC       liblely_io_la-addr.lo
+[27.799s]   CC       liblely_io_la-attr.lo
+[27.799s]   CC       liblely_io_la-file.lo
+[27.799s]   CC       liblely_io_la-can.lo
+[27.802s]   CC       liblely_io_la-if.lo
+[27.802s]   CC       liblely_io_la-io.lo
+[27.802s]   CC       liblely_io_la-handle.lo
+[27.802s]   CC       liblely_io_la-pipe.lo
+[27.802s]   CC       liblely_io_la-poll.lo
+[27.802s]   CC       liblely_io_la-rtnl.lo
+[27.803s]   CC       liblely_io_la-serial.lo
+[27.803s]   CC       liblely_io_la-sock.lo
+[28.327s]   CCLD     liblely-io.la
+[28.625s] Making all in ev
+[28.632s]   CC       liblely_ev_la-exec.lo
+[28.633s]   CC       liblely_ev_la-fiber_exec.lo
+[28.633s]   CC       liblely_ev_la-future.lo
+[28.634s]   CC       liblely_ev_la-poll.lo
+[28.634s]   CC       liblely_ev_la-std_exec.lo
+[28.634s]   CC       liblely_ev_la-loop.lo
+[28.635s]   CC       liblely_ev_la-strand.lo
+[28.635s]   CC       liblely_ev_la-task.lo
+[28.636s]   CC       liblely_ev_la-thrd_loop.lo
+[29.025s]   CCLD     liblely-ev.la
+[29.279s] Making all in io2
+[29.291s]   CC       liblely_io2_la-can.lo
+[29.292s]   CC       liblely_io2_la-can_net.lo
+[29.296s]   CC       liblely_io2_la-can_rt.lo
+[29.296s]   CC       liblely_io2_la-clock.lo
+[29.297s]   CC       liblely_io2_la-ctx.lo
+[29.298s]   CC       liblely_io2_la-dev.lo
+[29.298s]   CC       liblely_io2_la-sigset.lo
+[29.298s]   CC       liblely_io2_la-timer.lo
+[29.299s]   CC       liblely_io2_la-tqueue.lo
+[29.299s]   CC       liblely_io2_la-vcan.lo
+[29.405s]   CC       can/liblely_io2_la-msg.lo
+[29.406s]   CC       linux/liblely_io2_la-can_chan.lo
+[29.406s]   CC       linux/liblely_io2_la-can_ctrl.lo
+[29.410s]   CC       linux/liblely_io2_la-poll.lo
+[29.426s]   CC       linux/liblely_io2_la-timer.lo
+[29.440s]   CC       posix/liblely_io2_la-fd.lo
+[29.456s]   CC       posix/liblely_io2_la-io.lo
+[29.497s]   CC       posix/liblely_io2_la-sigset.lo
+[29.540s]   CC       sys/liblely_io2_la-clock.lo
+[29.587s]   CC       sys/liblely_io2_la-io.lo
+[29.636s]   CC       user/liblely_io2_la-can.lo
+[29.713s]   CC       user/liblely_io2_la-timer.lo
+[30.266s]   CCLD     liblely-io2.la
+[30.616s] Making all in coapp
+[30.624s]   CXX      liblely_coapp_la-driver.lo
+[30.624s]   CXX      liblely_coapp_la-device.lo
+[30.625s]   CXX      liblely_coapp_la-loop_driver.lo
+[30.625s]   CXX      liblely_coapp_la-fiber_driver.lo
+[30.625s]   CXX      liblely_coapp_la-lss_master.lo
+[30.626s]   CXX      liblely_coapp_la-logical_driver.lo
+[30.627s]   CXX      liblely_coapp_la-node.lo
+[30.627s]   CXX      liblely_coapp_la-master.lo
+[30.628s]   CXX      liblely_coapp_la-sdo.lo
+[30.631s]   CXX      liblely_coapp_la-sdo_error.lo
+[30.631s]   CXX      liblely_coapp_la-slave.lo
+[30.633s]   CXX      liblely_coapp_la-type_traits.lo
+[35.086s]   CXXLD    liblely-coapp.la
+[35.586s] Making all in python
+[35.601s] Making all in dcf-tools
+[35.609s] Making all in pkgconfig
+[35.644s] [ 87%] [34m[1mNo install step for 'upstr_lely_core_libraries'[0m
+[35.680s] [100%] [34m[1mCompleted 'upstr_lely_core_libraries'[0m
+[35.720s] [100%] Built target upstr_lely_core_libraries
+[35.737s] Invoked command in '/home/rudranil/oddity_rover/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake --build /home/rudranil/oddity_rover/build/lely_core_libraries -- -j12 -l12
+[35.777s] Invoking command in '/home/rudranil/oddity_rover/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake --install /home/rudranil/oddity_rover/build/lely_core_libraries
+[35.787s] -- Install configuration: ""
+[35.787s] -- Execute custom install script
+[35.788s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[35.799s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/environment/pythonpath.sh
+[35.811s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/environment/pythonpath.dsv
+[35.824s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/PKG-INFO
+[35.836s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/SOURCES.txt
+[35.847s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/dependency_links.txt
+[35.859s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/entry_points.txt
+[35.872s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.11-py3.10.egg-info/top_level.txt
+[35.884s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/lib/cogen//cogen
+[35.896s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/__init__.py
+[35.908s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/cogen.py
+[35.920s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.sh
+[35.932s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.dsv
+[35.944s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/ament_index/resource_index/package_run_dependencies/lely_core_libraries
+[35.956s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/ament_index/resource_index/parent_prefix_path/lely_core_libraries
+[35.967s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.sh
+[35.979s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.dsv
+[35.991s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/environment/path.sh
+[36.004s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/environment/path.dsv
+[36.017s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/local_setup.bash
+[36.029s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/local_setup.sh
+[36.041s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/local_setup.zsh
+[36.053s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/local_setup.dsv
+[36.065s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/package.dsv
+[36.077s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/ament_index/resource_index/packages/lely_core_libraries
+[36.090s] -- Up-to-date symlink: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[36.090s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.102s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_libraries-extras.cmake
+[36.114s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig.cmake
+[36.126s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig-version.cmake
+[36.138s] -- Symlinking: /home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/package.xml
+[36.165s] Making install in doc
+[36.168s] gmake[1]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/doc'
+[36.172s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/doc'
+[36.172s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[36.172s] gmake[2]: Nothing to be done for 'install-data-am'.
+[36.173s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/doc'
+[36.173s] gmake[1]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/doc'
+[36.173s] Making install in include
+[36.180s] gmake[1]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/include'
+[36.184s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/include'
+[36.184s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[36.190s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include'
+[36.203s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/co'
+[36.205s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/co.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/crc.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/csdo.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/csdo.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/dcf.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/dcf.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/dev.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/dev.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/emcy.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/emcy.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/gw.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/gw.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/gw_txt.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/gw_txt.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/lss.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/lss.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/nmt.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/nmt.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/obj.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/obj.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/pdo.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/rpdo.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/rpdo.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/sdev.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/sdev.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/sdo.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/ssdo.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/ssdo.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/sync.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/sync.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/time.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/time.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/tpdo.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/tpdo.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/type.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/type.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/val.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/val.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/wtm.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/wtm.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/co'
+[36.209s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/posix'
+[36.211s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/posix/poll.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/posix/poll.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/posix'
+[36.213s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/can'
+[36.215s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/can/buf.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/can/buf.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/can/err.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/can/msg.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/can/net.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/can/net.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/can/socket.h '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/can'
+[36.218s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/ev'
+[36.219s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/co_task.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/ev.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/exec.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/exec.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/fiber_exec.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/fiber_exec.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/future.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/future.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/loop.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/loop.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/poll.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/poll.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/std_exec.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/strand.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/strand.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/task.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/task.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/thrd_loop.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/ev/thrd_loop.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/ev'
+[36.223s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/co/def'
+[36.227s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/def/array.def /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/def/basic.def /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/def/cxx.def /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/def/time.def /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/def/type.def '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/co/def'
+[36.229s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely'
+[36.230s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/features.h '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely'
+[36.232s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io'
+[36.234s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/addr.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/attr.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/can.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/can.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/file.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/file.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/if.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/io.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/io.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/pipe.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/pipe.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/poll.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/poll.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/serial.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/serial.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/sock.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io/sock.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io'
+[36.237s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/util/def'
+[36.238s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/def/type.def '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/util/def'
+[36.240s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/co/detail'
+[36.242s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/detail/dev.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/co/detail/obj.h '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/co/detail'
+[36.245s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/can'
+[36.248s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can/err.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can/err.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can/msg.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can/msg.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/can'
+[36.252s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/coapp'
+[36.253s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/type_traits.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/device.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/driver.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/fiber_driver.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/logical_driver.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/loop_driver.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/lss_master.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/master.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/node.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/sdo.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/sdo_error.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/coapp/slave.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/coapp'
+[36.259s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2'
+[36.263s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can_net.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can_net.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can_rt.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/can_rt.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/clock.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/clock.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/co_can.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/co_can_rt.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/co_sigset.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/co_timer.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/co_tqueue.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/ctx.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/ctx.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/dev.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/dev.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/event.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/event.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/io2.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sigset.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sigset.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/timer.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/timer.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/tqueue.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/tqueue.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/vcan.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/vcan.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2'
+[36.266s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/linux'
+[36.269s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/linux/can.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/linux/can.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/linux'
+[36.271s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/libc/sys'
+[36.275s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/sys/types.h '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/libc/sys'
+[36.278s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/user'
+[36.280s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/user/can.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/user/can.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/user/timer.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/user/timer.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/user'
+[36.283s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/sys'
+[36.285s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sys/clock.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sys/clock.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sys/io.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sys/io.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sys/sigset.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sys/sigset.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sys/timer.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/io2/sys/timer.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/io2/sys'
+[36.288s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/tap'
+[36.290s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/tap/tap.h '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/tap'
+[36.293s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/util'
+[36.295s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/bimap.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/coroutine.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/coroutine.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/mkjmp.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/sllist.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/spscring.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/bits.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/bitset.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/c_call.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/c_type.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/chrono.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/cmp.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/config.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/daemon.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/diag.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/dllist.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/endian.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/errnum.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/error.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/exception.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/fiber.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/fiber.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/float.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/frbuf.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/fwbuf.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/invoker.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/lex.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/membuf.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/mutex.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/pheap.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/print.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/rbtree.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/result.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/stop.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/stop.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/time.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/ustring.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/util/util.h '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/util'
+[36.300s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/libc'
+[36.302s]  /usr/bin/install -c -m 644  /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/chrono.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/functional.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/stdatomic.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/stddef.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/stdint.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/stdio.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/stdlib.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/string.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/strings.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/threads.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/time.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/type_traits.hpp /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/uchar.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/unistd.h /home/rudranil/oddity_rover/build/lely_core_libraries/upstream/include/lely/libc/utility.hpp '/home/rudranil/oddity_rover/install/lely_core_libraries/include/lely/libc'
+[36.307s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/include'
+[36.307s] gmake[1]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/include'
+[36.308s] Making install in src
+[36.311s] gmake[1]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src'
+[36.318s] Making install in libc
+[36.341s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/libc'
+[36.350s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/libc'
+[36.353s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[36.356s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-libc.la '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[36.377s] libtool: install: /usr/bin/install -c .libs/liblely-libc.so.2.4.0 /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-libc.so.2.4.0
+[36.380s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.4.0 liblely-libc.so.2 || { rm -f liblely-libc.so.2 && ln -s liblely-libc.so.2.4.0 liblely-libc.so.2; }; })
+[36.383s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.4.0 liblely-libc.so || { rm -f liblely-libc.so && ln -s liblely-libc.so.2.4.0 liblely-libc.so; }; })
+[36.385s] libtool: install: /usr/bin/install -c .libs/liblely-libc.lai /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-libc.la
+[36.417s] libtool: finish: PATH="/opt/ros/humble/bin:/home/rudranil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[36.421s] ----------------------------------------------------------------------
+[36.422s] Libraries have been installed in:
+[36.422s]    /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[36.422s] 
+[36.422s] If you ever happen to want to link against installed libraries
+[36.422s] in a given directory, LIBDIR, you must either use libtool, and
+[36.422s] specify the full pathname of the library, or use the '-LLIBDIR'
+[36.422s] flag during linking and do at least one of the following:
+[36.422s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[36.423s]      during execution
+[36.423s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[36.423s]      during linking
+[36.423s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[36.423s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[36.423s] 
+[36.423s] See any operating system documentation about shared libraries for
+[36.423s] more information, such as the ld(1) and ld.so(8) manual pages.
+[36.423s] ----------------------------------------------------------------------
+[36.427s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/libc'
+[36.427s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/libc'
+[36.428s] Making install in tap
+[36.434s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/tap'
+[36.441s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/tap'
+[36.443s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[36.445s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-tap.la '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[36.483s] libtool: warning: relinking 'liblely-tap.la'
+[36.486s] libtool: install: (cd /home/rudranil/oddity_rover/build/lely_core_libraries/build/src/tap; /bin/bash "/home/rudranil/oddity_rover/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-tap.la -rpath /home/rudranil/oddity_rover/install/lely_core_libraries/lib liblely_tap_la-tap.lo ../../src/libc/liblely-libc.la -lpthread )
+[36.615s] libtool: install: /usr/bin/install -c .libs/liblely-tap.so.2.4.0T /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-tap.so.2.4.0
+[36.617s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.4.0 liblely-tap.so.2 || { rm -f liblely-tap.so.2 && ln -s liblely-tap.so.2.4.0 liblely-tap.so.2; }; })
+[36.620s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.4.0 liblely-tap.so || { rm -f liblely-tap.so && ln -s liblely-tap.so.2.4.0 liblely-tap.so; }; })
+[36.622s] libtool: install: /usr/bin/install -c .libs/liblely-tap.lai /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-tap.la
+[36.652s] libtool: finish: PATH="/opt/ros/humble/bin:/home/rudranil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[36.654s] ----------------------------------------------------------------------
+[36.655s] Libraries have been installed in:
+[36.655s]    /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[36.655s] 
+[36.655s] If you ever happen to want to link against installed libraries
+[36.655s] in a given directory, LIBDIR, you must either use libtool, and
+[36.655s] specify the full pathname of the library, or use the '-LLIBDIR'
+[36.655s] flag during linking and do at least one of the following:
+[36.655s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[36.655s]      during execution
+[36.655s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[36.655s]      during linking
+[36.655s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[36.655s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[36.655s] 
+[36.655s] See any operating system documentation about shared libraries for
+[36.655s] more information, such as the ld(1) and ld.so(8) manual pages.
+[36.655s] ----------------------------------------------------------------------
+[36.660s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/tap'
+[36.660s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/tap'
+[36.661s] Making install in util
+[36.696s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/util'
+[36.718s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/util'
+[36.719s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[36.722s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-util.la '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[36.760s] libtool: warning: relinking 'liblely-util.la'
+[36.765s] libtool: install: (cd /home/rudranil/oddity_rover/build/lely_core_libraries/build/src/util; /bin/bash "/home/rudranil/oddity_rover/build/lely_core_libraries/build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -Wall -Wextra -pedantic -Werror -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-util.la -rpath /home/rudranil/oddity_rover/install/lely_core_libraries/lib liblely_util_la-bimap.lo liblely_util_la-mkjmp.lo liblely_util_la-sllist.lo liblely_util_la-spscring.lo liblely_util_la-bits.lo liblely_util_la-bitset.lo liblely_util_la-cmp.lo liblely_util_la-config.lo liblely_util_la-config_ini.lo liblely_util_la-daemon.lo liblely_util_la-diag.lo liblely_util_la-dllist.lo liblely_util_la-endian.lo liblely_util_la-errnum.lo liblely_util_la-exception.lo liblely_util_la-fiber.lo liblely_util_la-frbuf.lo liblely_util_la-fwbuf.lo liblely_util_la-lex.lo liblely_util_la-membuf.lo liblely_util_la-pheap.lo liblely_util_la-print.lo liblely_util_la-rbtree.lo liblely_util_la-stop.lo liblely_util_la-time.lo liblely_util_la-ustring.lo ../../src/libc/liblely-libc.la -lm -lpthread )
+[36.959s] libtool: install: /usr/bin/install -c .libs/liblely-util.so.2.4.0T /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-util.so.2.4.0
+[36.962s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.4.0 liblely-util.so.2 || { rm -f liblely-util.so.2 && ln -s liblely-util.so.2.4.0 liblely-util.so.2; }; })
+[36.965s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.4.0 liblely-util.so || { rm -f liblely-util.so && ln -s liblely-util.so.2.4.0 liblely-util.so; }; })
+[36.968s] libtool: install: /usr/bin/install -c .libs/liblely-util.lai /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-util.la
+[37.002s] libtool: finish: PATH="/opt/ros/humble/bin:/home/rudranil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[37.006s] ----------------------------------------------------------------------
+[37.006s] Libraries have been installed in:
+[37.007s]    /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[37.007s] 
+[37.007s] If you ever happen to want to link against installed libraries
+[37.007s] in a given directory, LIBDIR, you must either use libtool, and
+[37.007s] specify the full pathname of the library, or use the '-LLIBDIR'
+[37.007s] flag during linking and do at least one of the following:
+[37.007s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[37.007s]      during execution
+[37.007s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[37.007s]      during linking
+[37.007s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[37.007s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[37.008s] 
+[37.008s] See any operating system documentation about shared libraries for
+[37.008s] more information, such as the ld(1) and ld.so(8) manual pages.
+[37.008s] ----------------------------------------------------------------------
+[37.013s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/util'
+[37.014s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/util'
+[37.014s] Making install in can
+[37.035s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/can'
+[37.045s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/can'
+[37.047s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[37.050s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-can.la '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[37.091s] libtool: warning: relinking 'liblely-can.la'
+[37.097s] libtool: install: (cd /home/rudranil/oddity_rover/build/lely_core_libraries/build/src/can; /bin/bash "/home/rudranil/oddity_rover/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-can.la -rpath /home/rudranil/oddity_rover/install/lely_core_libraries/lib liblely_can_la-buf.lo liblely_can_la-msg.lo liblely_can_la-net.lo liblely_can_la-socket.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la -lpthread )
+[37.258s] libtool: install: /usr/bin/install -c .libs/liblely-can.so.1.9.2T /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-can.so.1.9.2
+[37.261s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so.1 || { rm -f liblely-can.so.1 && ln -s liblely-can.so.1.9.2 liblely-can.so.1; }; })
+[37.265s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so || { rm -f liblely-can.so && ln -s liblely-can.so.1.9.2 liblely-can.so; }; })
+[37.270s] libtool: install: /usr/bin/install -c .libs/liblely-can.lai /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-can.la
+[37.305s] libtool: finish: PATH="/opt/ros/humble/bin:/home/rudranil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[37.308s] ----------------------------------------------------------------------
+[37.308s] Libraries have been installed in:
+[37.308s]    /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[37.309s] 
+[37.309s] If you ever happen to want to link against installed libraries
+[37.309s] in a given directory, LIBDIR, you must either use libtool, and
+[37.309s] specify the full pathname of the library, or use the '-LLIBDIR'
+[37.309s] flag during linking and do at least one of the following:
+[37.309s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[37.309s]      during execution
+[37.309s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[37.309s]      during linking
+[37.309s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[37.309s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[37.309s] 
+[37.309s] See any operating system documentation about shared libraries for
+[37.309s] more information, such as the ld(1) and ld.so(8) manual pages.
+[37.309s] ----------------------------------------------------------------------
+[37.316s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/can'
+[37.316s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/can'
+[37.316s] Making install in co
+[37.336s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/co'
+[37.357s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/co'
+[37.359s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[37.362s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-co.la '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[37.402s] libtool: warning: relinking 'liblely-co.la'
+[37.407s] libtool: install: (cd /home/rudranil/oddity_rover/build/lely_core_libraries/build/src/co; /bin/bash "/home/rudranil/oddity_rover/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-co.la -rpath /home/rudranil/oddity_rover/install/lely_core_libraries/lib liblely_co_la-crc.lo liblely_co_la-csdo.lo liblely_co_la-dcf.lo liblely_co_la-dev.lo liblely_co_la-emcy.lo liblely_co_la-gw.lo liblely_co_la-gw_txt.lo liblely_co_la-lss.lo liblely_co_la-nmt.lo liblely_co_la-nmt_boot.lo liblely_co_la-nmt_cfg.lo liblely_co_la-nmt_hb.lo liblely_co_la-nmt_srv.lo liblely_co_la-obj.lo liblely_co_la-pdo.lo liblely_co_la-rpdo.lo liblely_co_la-sdev.lo liblely_co_la-sdo.lo liblely_co_la-ssdo.lo liblely_co_la-sync.lo liblely_co_la-time.lo liblely_co_la-tpdo.lo liblely_co_la-type.lo liblely_co_la-val.lo liblely_co_la-wtm.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la -lpthread )
+[37.646s] libtool: install: /usr/bin/install -c .libs/liblely-co.so.2.4.0T /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-co.so.2.4.0
+[37.651s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.4.0 liblely-co.so.2 || { rm -f liblely-co.so.2 && ln -s liblely-co.so.2.4.0 liblely-co.so.2; }; })
+[37.654s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.4.0 liblely-co.so || { rm -f liblely-co.so && ln -s liblely-co.so.2.4.0 liblely-co.so; }; })
+[37.658s] libtool: install: /usr/bin/install -c .libs/liblely-co.lai /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-co.la
+[37.697s] libtool: finish: PATH="/opt/ros/humble/bin:/home/rudranil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[37.702s] ----------------------------------------------------------------------
+[37.702s] Libraries have been installed in:
+[37.703s]    /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[37.703s] 
+[37.703s] If you ever happen to want to link against installed libraries
+[37.703s] in a given directory, LIBDIR, you must either use libtool, and
+[37.703s] specify the full pathname of the library, or use the '-LLIBDIR'
+[37.703s] flag during linking and do at least one of the following:
+[37.703s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[37.703s]      during execution
+[37.704s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[37.704s]      during linking
+[37.704s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[37.704s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[37.704s] 
+[37.704s] See any operating system documentation about shared libraries for
+[37.704s] more information, such as the ld(1) and ld.so(8) manual pages.
+[37.705s] ----------------------------------------------------------------------
+[37.710s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/co'
+[37.711s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/co'
+[37.712s] Making install in io
+[37.731s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io'
+[37.751s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io'
+[37.753s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[37.755s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io.la '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[37.801s] libtool: warning: relinking 'liblely-io.la'
+[37.806s] libtool: install: (cd /home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io; /bin/bash "/home/rudranil/oddity_rover/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-io.la -rpath /home/rudranil/oddity_rover/install/lely_core_libraries/lib liblely_io_la-addr.lo liblely_io_la-attr.lo liblely_io_la-can.lo liblely_io_la-file.lo liblely_io_la-handle.lo liblely_io_la-if.lo liblely_io_la-io.lo liblely_io_la-pipe.lo liblely_io_la-poll.lo liblely_io_la-rtnl.lo liblely_io_la-serial.lo liblely_io_la-sock.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la -lpthread )
+[38.046s] libtool: install: /usr/bin/install -c .libs/liblely-io.so.1.9.2T /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-io.so.1.9.2
+[38.051s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so.1 || { rm -f liblely-io.so.1 && ln -s liblely-io.so.1.9.2 liblely-io.so.1; }; })
+[38.055s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so || { rm -f liblely-io.so && ln -s liblely-io.so.1.9.2 liblely-io.so; }; })
+[38.058s] libtool: install: /usr/bin/install -c .libs/liblely-io.lai /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-io.la
+[38.101s] libtool: finish: PATH="/opt/ros/humble/bin:/home/rudranil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[38.105s] ----------------------------------------------------------------------
+[38.106s] Libraries have been installed in:
+[38.106s]    /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[38.106s] 
+[38.106s] If you ever happen to want to link against installed libraries
+[38.106s] in a given directory, LIBDIR, you must either use libtool, and
+[38.106s] specify the full pathname of the library, or use the '-LLIBDIR'
+[38.106s] flag during linking and do at least one of the following:
+[38.106s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[38.106s]      during execution
+[38.106s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[38.106s]      during linking
+[38.106s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[38.106s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[38.107s] 
+[38.107s] See any operating system documentation about shared libraries for
+[38.107s] more information, such as the ld(1) and ld.so(8) manual pages.
+[38.107s] ----------------------------------------------------------------------
+[38.114s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io'
+[38.114s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io'
+[38.115s] Making install in ev
+[38.128s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/ev'
+[38.144s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/ev'
+[38.147s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[38.150s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-ev.la '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[38.198s] libtool: warning: relinking 'liblely-ev.la'
+[38.203s] libtool: install: (cd /home/rudranil/oddity_rover/build/lely_core_libraries/build/src/ev; /bin/bash "/home/rudranil/oddity_rover/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-ev.la -rpath /home/rudranil/oddity_rover/install/lely_core_libraries/lib liblely_ev_la-exec.lo liblely_ev_la-fiber_exec.lo liblely_ev_la-future.lo liblely_ev_la-loop.lo liblely_ev_la-poll.lo liblely_ev_la-std_exec.lo liblely_ev_la-strand.lo liblely_ev_la-task.lo liblely_ev_la-thrd_loop.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la -lpthread )
+[38.404s] libtool: install: /usr/bin/install -c .libs/liblely-ev.so.2.4.0T /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-ev.so.2.4.0
+[38.408s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.4.0 liblely-ev.so.2 || { rm -f liblely-ev.so.2 && ln -s liblely-ev.so.2.4.0 liblely-ev.so.2; }; })
+[38.411s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.4.0 liblely-ev.so || { rm -f liblely-ev.so && ln -s liblely-ev.so.2.4.0 liblely-ev.so; }; })
+[38.416s] libtool: install: /usr/bin/install -c .libs/liblely-ev.lai /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-ev.la
+[38.459s] libtool: finish: PATH="/opt/ros/humble/bin:/home/rudranil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[38.462s] ----------------------------------------------------------------------
+[38.462s] Libraries have been installed in:
+[38.462s]    /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[38.463s] 
+[38.463s] If you ever happen to want to link against installed libraries
+[38.463s] in a given directory, LIBDIR, you must either use libtool, and
+[38.463s] specify the full pathname of the library, or use the '-LLIBDIR'
+[38.463s] flag during linking and do at least one of the following:
+[38.463s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[38.463s]      during execution
+[38.463s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[38.463s]      during linking
+[38.463s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[38.463s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[38.464s] 
+[38.464s] See any operating system documentation about shared libraries for
+[38.464s] more information, such as the ld(1) and ld.so(8) manual pages.
+[38.464s] ----------------------------------------------------------------------
+[38.471s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/ev'
+[38.471s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/ev'
+[38.472s] Making install in io2
+[38.508s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io2'
+[38.535s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io2'
+[38.537s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[38.540s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io2.la '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[38.588s] libtool: warning: relinking 'liblely-io2.la'
+[38.593s] libtool: install: (cd /home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io2; /bin/bash "/home/rudranil/oddity_rover/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -pthread -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-io2.la -rpath /home/rudranil/oddity_rover/install/lely_core_libraries/lib can/liblely_io2_la-msg.lo linux/liblely_io2_la-can_chan.lo linux/liblely_io2_la-can_ctrl.lo linux/liblely_io2_la-poll.lo linux/liblely_io2_la-timer.lo posix/liblely_io2_la-fd.lo posix/liblely_io2_la-io.lo posix/liblely_io2_la-sigset.lo sys/liblely_io2_la-clock.lo sys/liblely_io2_la-io.lo user/liblely_io2_la-can.lo user/liblely_io2_la-timer.lo liblely_io2_la-can.lo liblely_io2_la-can_net.lo liblely_io2_la-can_rt.lo liblely_io2_la-clock.lo liblely_io2_la-ctx.lo liblely_io2_la-dev.lo liblely_io2_la-sigset.lo liblely_io2_la-timer.lo liblely_io2_la-tqueue.lo liblely_io2_la-vcan.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la -lrt -lpthread )
+[38.880s] libtool: install: /usr/bin/install -c .libs/liblely-io2.so.2.4.0T /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-io2.so.2.4.0
+[38.886s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.4.0 liblely-io2.so.2 || { rm -f liblely-io2.so.2 && ln -s liblely-io2.so.2.4.0 liblely-io2.so.2; }; })
+[38.889s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.4.0 liblely-io2.so || { rm -f liblely-io2.so && ln -s liblely-io2.so.2.4.0 liblely-io2.so; }; })
+[38.893s] libtool: install: /usr/bin/install -c .libs/liblely-io2.lai /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-io2.la
+[38.932s] libtool: finish: PATH="/opt/ros/humble/bin:/home/rudranil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[38.937s] ----------------------------------------------------------------------
+[38.937s] Libraries have been installed in:
+[38.938s]    /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[38.938s] 
+[38.938s] If you ever happen to want to link against installed libraries
+[38.938s] in a given directory, LIBDIR, you must either use libtool, and
+[38.938s] specify the full pathname of the library, or use the '-LLIBDIR'
+[38.938s] flag during linking and do at least one of the following:
+[38.939s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[38.939s]      during execution
+[38.939s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[38.939s]      during linking
+[38.939s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[38.939s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[38.939s] 
+[38.939s] See any operating system documentation about shared libraries for
+[38.939s] more information, such as the ld(1) and ld.so(8) manual pages.
+[38.939s] ----------------------------------------------------------------------
+[38.947s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io2'
+[38.947s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/io2'
+[38.949s] Making install in coapp
+[38.977s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/coapp'
+[39.011s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/coapp'
+[39.013s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[39.016s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-coapp.la '/home/rudranil/oddity_rover/install/lely_core_libraries/lib'
+[39.060s] libtool: warning: relinking 'liblely-coapp.la'
+[39.064s] libtool: install: (cd /home/rudranil/oddity_rover/build/lely_core_libraries/build/src/coapp; /bin/bash "/home/rudranil/oddity_rover/build/lely_core_libraries/build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -Wall -Wextra -pedantic -Werror -g -O2 -no-undefined -version-number 2:4:0 -Wl,--as-needed -o liblely-coapp.la -rpath /home/rudranil/oddity_rover/install/lely_core_libraries/lib liblely_coapp_la-device.lo liblely_coapp_la-driver.lo liblely_coapp_la-fiber_driver.lo liblely_coapp_la-logical_driver.lo liblely_coapp_la-loop_driver.lo liblely_coapp_la-lss_master.lo liblely_coapp_la-master.lo liblely_coapp_la-node.lo liblely_coapp_la-sdo.lo liblely_coapp_la-sdo_error.lo liblely_coapp_la-slave.lo liblely_coapp_la-type_traits.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la ../../src/io2/liblely-io2.la ../../src/co/liblely-co.la -lpthread )
+[39.586s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.so.2.4.0T /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-coapp.so.2.4.0
+[39.599s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.4.0 liblely-coapp.so.2 || { rm -f liblely-coapp.so.2 && ln -s liblely-coapp.so.2.4.0 liblely-coapp.so.2; }; })
+[39.602s] libtool: install: (cd /home/rudranil/oddity_rover/install/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.4.0 liblely-coapp.so || { rm -f liblely-coapp.so && ln -s liblely-coapp.so.2.4.0 liblely-coapp.so; }; })
+[39.605s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.lai /home/rudranil/oddity_rover/install/lely_core_libraries/lib/liblely-coapp.la
+[39.647s] libtool: finish: PATH="/opt/ros/humble/bin:/home/rudranil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[39.652s] ----------------------------------------------------------------------
+[39.652s] Libraries have been installed in:
+[39.652s]    /home/rudranil/oddity_rover/install/lely_core_libraries/lib
+[39.652s] 
+[39.652s] If you ever happen to want to link against installed libraries
+[39.652s] in a given directory, LIBDIR, you must either use libtool, and
+[39.652s] specify the full pathname of the library, or use the '-LLIBDIR'
+[39.653s] flag during linking and do at least one of the following:
+[39.653s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[39.653s]      during execution
+[39.653s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[39.653s]      during linking
+[39.653s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[39.653s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[39.653s] 
+[39.653s] See any operating system documentation about shared libraries for
+[39.653s] more information, such as the ld(1) and ld.so(8) manual pages.
+[39.654s] ----------------------------------------------------------------------
+[39.660s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/coapp'
+[39.660s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src/coapp'
+[39.664s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src'
+[39.670s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src'
+[39.670s] gmake[3]: Nothing to be done for 'install-exec-am'.
+[39.671s] gmake[3]: Nothing to be done for 'install-data-am'.
+[39.671s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src'
+[39.671s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src'
+[39.671s] gmake[1]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/src'
+[39.672s] Making install in python
+[39.675s] gmake[1]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python'
+[39.684s] Making install in dcf-tools
+[39.687s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python/dcf-tools'
+[39.692s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python/dcf-tools'
+[40.055s] running egg_info
+[40.056s] creating dcf_tools.egg-info
+[40.056s] writing dcf_tools.egg-info/PKG-INFO
+[40.056s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[40.057s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[40.057s] writing requirements to dcf_tools.egg-info/requires.txt
+[40.057s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[40.057s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[40.060s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[40.061s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[40.061s] running build
+[40.061s] running build_py
+[40.061s] creating build
+[40.061s] creating build/lib
+[40.062s] creating build/lib/dcf
+[40.062s] copying dcf/cli.py -> build/lib/dcf
+[40.062s] copying dcf/print.py -> build/lib/dcf
+[40.062s] copying dcf/lint.py -> build/lib/dcf
+[40.062s] copying dcf/device.py -> build/lib/dcf
+[40.062s] copying dcf/__init__.py -> build/lib/dcf
+[40.062s] copying dcf/parse.py -> build/lib/dcf
+[40.062s] creating build/lib/dcf2dev
+[40.062s] copying dcf2dev/cdevice.py -> build/lib/dcf2dev
+[40.063s] copying dcf2dev/cli.py -> build/lib/dcf2dev
+[40.063s] copying dcf2dev/__init__.py -> build/lib/dcf2dev
+[40.063s] creating build/lib/dcfgen
+[40.063s] copying dcfgen/cli.py -> build/lib/dcfgen
+[40.063s] copying dcfgen/__init__.py -> build/lib/dcfgen
+[40.063s] creating build/lib/dcf2dev/data
+[40.063s] copying dcf2dev/data/dev.h.em -> build/lib/dcf2dev/data
+[40.064s] copying dcf2dev/data/dev.c.em -> build/lib/dcf2dev/data
+[40.064s] creating build/lib/dcfgen/data
+[40.064s] copying dcfgen/data/master.dcf.em -> build/lib/dcfgen/data
+[40.064s] running install
+[40.065s] running install_lib
+[40.066s] creating /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10
+[40.066s] creating /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages
+[40.066s] creating /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[40.066s] copying build/lib/dcf/cli.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[40.066s] copying build/lib/dcf/print.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[40.066s] copying build/lib/dcf/lint.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[40.067s] copying build/lib/dcf/device.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[40.067s] copying build/lib/dcf/__init__.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[40.067s] copying build/lib/dcf/parse.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[40.067s] creating /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[40.068s] copying build/lib/dcf2dev/cdevice.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[40.068s] copying build/lib/dcf2dev/cli.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[40.068s] copying build/lib/dcf2dev/__init__.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[40.068s] creating /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[40.068s] copying build/lib/dcf2dev/data/dev.h.em -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[40.069s] copying build/lib/dcf2dev/data/dev.c.em -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[40.069s] creating /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[40.069s] copying build/lib/dcfgen/cli.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[40.069s] copying build/lib/dcfgen/__init__.py -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[40.069s] creating /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data
+[40.069s] copying build/lib/dcfgen/data/master.dcf.em -> /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data
+[40.070s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf/cli.py to cli.cpython-310.pyc
+[40.070s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf/print.py to print.cpython-310.pyc
+[40.071s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf/lint.py to lint.cpython-310.pyc
+[40.077s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf/device.py to device.cpython-310.pyc
+[40.081s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__init__.py to __init__.cpython-310.pyc
+[40.082s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf/parse.py to parse.cpython-310.pyc
+[40.084s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cdevice.py to cdevice.cpython-310.pyc
+[40.085s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cli.py to cli.cpython-310.pyc
+[40.086s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__init__.py to __init__.cpython-310.pyc
+[40.086s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py to cli.cpython-310.pyc
+[40.091s] byte-compiling /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__init__.py to __init__.cpython-310.pyc
+[40.092s] running install_egg_info
+[40.093s] Copying dcf_tools.egg-info to /home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.4.0-py3.10.egg-info
+[40.094s] running install_scripts
+[40.121s] Installing dcf2dev script to /home/rudranil/oddity_rover/install/lely_core_libraries/bin/
+[40.121s] Installing dcfchk script to /home/rudranil/oddity_rover/install/lely_core_libraries/bin/
+[40.121s] Installing dcfgen script to /home/rudranil/oddity_rover/install/lely_core_libraries/bin/
+[40.122s] writing list of installed files to 'install.log'
+[40.159s] gmake[3]: Nothing to be done for 'install-data-am'.
+[40.159s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python/dcf-tools'
+[40.160s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python/dcf-tools'
+[40.164s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python'
+[40.168s] gmake[3]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python'
+[40.168s] gmake[3]: Nothing to be done for 'install-exec-am'.
+[40.168s] gmake[3]: Nothing to be done for 'install-data-am'.
+[40.168s] gmake[3]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python'
+[40.169s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python'
+[40.170s] gmake[1]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/python'
+[40.171s] Making install in pkgconfig
+[40.174s] gmake[1]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/pkgconfig'
+[40.179s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/pkgconfig'
+[40.179s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[40.183s]  /usr/bin/mkdir -p '/home/rudranil/oddity_rover/install/lely_core_libraries/lib/pkgconfig'
+[40.190s]  /usr/bin/install -c -m 644 liblely-can.pc liblely-co.pc liblely-coapp.pc liblely-ev.pc liblely-io.pc liblely-io2.pc liblely-libc.pc liblely-libc_rt.pc liblely-tap.pc liblely-util.pc '/home/rudranil/oddity_rover/install/lely_core_libraries/lib/pkgconfig'
+[40.194s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/pkgconfig'
+[40.195s] gmake[1]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build/pkgconfig'
+[40.199s] gmake[1]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build'
+[40.209s] gmake[2]: Entering directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build'
+[40.209s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[40.209s] gmake[2]: Nothing to be done for 'install-data-am'.
+[40.209s] gmake[2]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build'
+[40.209s] gmake[1]: Leaving directory '/home/rudranil/oddity_rover/build/lely_core_libraries/build'
+[40.255s] Listing '/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen'...
+[40.255s] Compiling '/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/__init__.py'...
+[40.255s] Compiling '/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/cogen.py'...
+[40.261s] -- Up-to-date: /home/rudranil/oddity_rover/install/lely_core_libraries/bin/
+[40.261s] -- Installing: /home/rudranil/oddity_rover/install/lely_core_libraries/bin//cogen
+[40.265s] Invoked command in '/home/rudranil/oddity_rover/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake --install /home/rudranil/oddity_rover/build/lely_core_libraries

@@ -1,0 +1,1 @@
+/home/rudranil/oddity_rover/build/martian_environment/ament_cmake_environment_hooks/local_setup.bash

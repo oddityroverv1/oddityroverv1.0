@@ -1,0 +1,25 @@
+[0.637s] Invoking command in '/home/rudranil/oddity_rover/build/canopen_utils': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/rudranil/oddity_rover/build/canopen_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudranil/oddity_rover/install/canopen_utils/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rudranil/oddity_rover/build/canopen_utils/build --no-deps symlink_data
+[0.887s] running develop
+[1.049s] running egg_info
+[1.049s] creating canopen_utils.egg-info
+[1.049s] writing canopen_utils.egg-info/PKG-INFO
+[1.050s] writing dependency_links to canopen_utils.egg-info/dependency_links.txt
+[1.050s] writing entry points to canopen_utils.egg-info/entry_points.txt
+[1.050s] writing requirements to canopen_utils.egg-info/requires.txt
+[1.050s] writing top-level names to canopen_utils.egg-info/top_level.txt
+[1.050s] writing manifest file 'canopen_utils.egg-info/SOURCES.txt'
+[1.052s] reading manifest file 'canopen_utils.egg-info/SOURCES.txt'
+[1.052s] writing manifest file 'canopen_utils.egg-info/SOURCES.txt'
+[1.054s] running build_ext
+[1.054s] Creating /home/rudranil/oddity_rover/install/canopen_utils/lib/python3.10/site-packages/canopen-utils.egg-link (link to .)
+[1.054s] Installing cyclic_tester script to /home/rudranil/oddity_rover/install/canopen_utils/lib/canopen_utils
+[1.055s] Installing simple_tester script to /home/rudranil/oddity_rover/install/canopen_utils/lib/canopen_utils
+[1.055s] 
+[1.055s] Installed /home/rudranil/oddity_rover/build/canopen_utils
+[1.055s] running symlink_data
+[1.055s] creating /home/rudranil/oddity_rover/install/canopen_utils/share/ament_index
+[1.055s] creating /home/rudranil/oddity_rover/install/canopen_utils/share/ament_index/resource_index
+[1.055s] creating /home/rudranil/oddity_rover/install/canopen_utils/share/ament_index/resource_index/packages
+[1.055s] symbolically linking /home/rudranil/oddity_rover/build/canopen_utils/resource/canopen_utils -> /home/rudranil/oddity_rover/install/canopen_utils/share/ament_index/resource_index/packages
+[1.055s] symbolically linking /home/rudranil/oddity_rover/build/canopen_utils/package.xml -> /home/rudranil/oddity_rover/install/canopen_utils/share/canopen_utils
+[1.095s] Invoked command in '/home/rudranil/oddity_rover/build/canopen_utils' returned '0': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/rudranil/oddity_rover/build/canopen_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rudranil/oddity_rover/install/canopen_utils/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rudranil/oddity_rover/build/canopen_utils/build --no-deps symlink_data

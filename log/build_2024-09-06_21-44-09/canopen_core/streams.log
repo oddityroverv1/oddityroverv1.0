@@ -1,0 +1,149 @@
+[0.026s] Invoking command in '/home/rudranil/oddity_rover/build/canopen_core': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rudranil/oddity_rover/src/ros2_canopen/canopen_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudranil/oddity_rover/install/canopen_core
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.195s] -- The CXX compiler identification is GNU 11.4.0
+[0.207s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.331s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.335s] -- Detecting CXX compiler ABI info
+[0.466s] -- Detecting CXX compiler ABI info - done
+[0.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.477s] -- Detecting CXX compile features
+[0.477s] -- Detecting CXX compile features - done
+[0.484s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.713s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.801s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.882s] -- Found canopen_interfaces: 0.2.11 (/home/rudranil/oddity_rover/install/canopen_interfaces/share/canopen_interfaces/cmake)
+[0.954s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.967s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.986s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.059s] -- Found lely_core_libraries: 0.2.11 (/home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/cmake)
+[1.068s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[1.092s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.191s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.198s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.388s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.438s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.515s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.537s] -- Looking for pthread.h
+[1.652s] -- Looking for pthread.h - found
+[1.652s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.777s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.779s] -- Found Threads: TRUE  
+[1.863s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.927s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.946s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.991s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[2.015s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.021s] -- Found ament_cmake_gmock: 1.3.10 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.028s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.036s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.180s] -- Configuring done
+[2.334s] -- Generating done
+[2.338s] -- Build files have been written to: /home/rudranil/oddity_rover/build/canopen_core
+[2.360s] Invoked command in '/home/rudranil/oddity_rover/build/canopen_core' returned '0': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rudranil/oddity_rover/src/ros2_canopen/canopen_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudranil/oddity_rover/install/canopen_core
+[2.363s] Invoking command in '/home/rudranil/oddity_rover/build/canopen_core': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudranil/oddity_rover/build/canopen_core -- -j12 -l12
+[2.456s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.456s] [ 11%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o[0m
+[2.456s] [ 11%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/driver_error.cpp.o[0m
+[2.457s] [ 11%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/driver_node.cpp.o[0m
+[2.457s] [ 16%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o[0m
+[2.457s] [ 16%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/master_error.cpp.o[0m
+[2.457s] [ 19%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.458s] [ 22%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/master_node.cpp.o[0m
+[2.458s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.733s] [ 27%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.801s] [ 27%] Built target gmock_main
+[6.570s] [ 30%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.669s] [ 30%] Built target gmock
+[7.843s] [ 33%] [32m[1mLinking CXX shared library libnode_canopen_driver.so[0m
+[8.026s] [ 33%] Built target node_canopen_driver
+[8.052s] [ 36%] [32mBuilding CXX object test/CMakeFiles/test_canopen_driver.dir/test_canopen_driver.cpp.o[0m
+[8.052s] [ 38%] [32mBuilding CXX object test/CMakeFiles/test_node_canopen_driver.dir/test_node_canopen_driver.cpp.o[0m
+[8.052s] [ 41%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_canopen_driver.dir/test_lifecycle_canopen_driver.cpp.o[0m
+[8.288s] [ 44%] [32m[1mLinking CXX shared library libnode_canopen_master.so[0m
+[8.479s] [ 44%] Built target node_canopen_master
+[8.512s] [ 55%] [32mBuilding CXX object CMakeFiles/device_container.dir/src/device_container.cpp.o[0m
+[8.512s] [ 55%] [32mBuilding CXX object CMakeFiles/device_container.dir/src/configuration_manager.cpp.o[0m
+[8.512s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_canopen_master.dir/test_canopen_master.cpp.o[0m
+[8.512s] [ 63%] [32mBuilding CXX object test/CMakeFiles/test_node_canopen_master.dir/test_node_canopen_master.cpp.o[0m
+[8.512s] [ 63%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_canopen_master.dir/test_lifecycle_canopen_master.cpp.o[0m
+[8.512s] [ 63%] [32mBuilding CXX object CMakeFiles/device_container.dir/src/lifecycle_manager.cpp.o[0m
+[8.514s] [ 63%] [32mBuilding CXX object CMakeFiles/device_container.dir/src/device_container_error.cpp.o[0m
+[15.153s] [ 66%] [32m[1mLinking CXX executable test_node_canopen_driver[0m
+[15.657s] [ 66%] Built target test_node_canopen_driver
+[15.851s] [ 69%] [32m[1mLinking CXX executable test_canopen_master[0m
+[16.042s] [ 72%] [32m[1mLinking CXX executable test_lifecycle_canopen_driver[0m
+[16.234s] [ 75%] [32m[1mLinking CXX executable test_canopen_driver[0m
+[16.425s] [ 75%] Built target test_canopen_master
+[16.564s] [ 75%] Built target test_lifecycle_canopen_driver
+[16.705s] [ 75%] Built target test_canopen_driver
+[16.910s] [ 77%] [32m[1mLinking CXX shared library libdevice_container.so[0m
+[17.149s] [ 80%] [32m[1mLinking CXX executable test_node_canopen_master[0m
+[17.202s] [ 80%] Built target device_container
+[17.221s] [ 83%] [32m[1mLinking CXX executable test_lifecycle_canopen_master[0m
+[17.228s] [ 86%] [32mBuilding CXX object CMakeFiles/device_container_node.dir/src/device_container_node.cpp.o[0m
+[17.228s] [ 88%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_manager.dir/test_lifecycle_manager.cpp.o[0m
+[17.231s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_errors.dir/test_errors.cpp.o[0m
+[17.573s] [ 91%] Built target test_node_canopen_master
+[17.691s] [ 91%] Built target test_lifecycle_canopen_master
+[18.492s] [ 94%] [32m[1mLinking CXX executable test_errors[0m
+[18.797s] [ 94%] Built target test_errors
+[21.753s] [ 97%] [32m[1mLinking CXX executable device_container_node[0m
+[21.980s] [ 97%] Built target device_container_node
+[22.577s] [100%] [32m[1mLinking CXX executable test_lifecycle_manager[0m
+[22.995s] [100%] Built target test_lifecycle_manager
+[23.013s] Invoked command in '/home/rudranil/oddity_rover/build/canopen_core' returned '0': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudranil/oddity_rover/build/canopen_core -- -j12 -l12
+[23.089s] Invoking command in '/home/rudranil/oddity_rover/build/canopen_core': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudranil/oddity_rover/build/canopen_core
+[23.097s] -- Install configuration: ""
+[23.097s] -- Execute custom install script
+[23.098s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/configuration_manager.hpp
+[23.109s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/device_container.hpp
+[23.121s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/device_container_error.hpp
+[23.132s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/driver_error.hpp
+[23.144s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/driver_node.hpp
+[23.156s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/exchange.hpp
+[23.168s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/lifecycle_manager.hpp
+[23.180s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/master_error.hpp
+[23.191s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/master_node.hpp
+[23.202s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver.hpp
+[23.213s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver_interface.hpp
+[23.223s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_master.hpp
+[23.236s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_master_interface.hpp
+[23.248s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/include/canopen_core/visibility_control.h
+[23.261s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/launch//canopen.launch.py
+[23.273s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/lib/canopen_core/device_container_node
+[23.285s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/environment/library_path.sh
+[23.296s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/environment/library_path.dsv
+[23.308s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/ament_index/resource_index/package_run_dependencies/canopen_core
+[23.319s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/ament_index/resource_index/parent_prefix_path/canopen_core
+[23.331s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/environment/ament_prefix_path.sh
+[23.341s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/environment/ament_prefix_path.dsv
+[23.353s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/environment/path.sh
+[23.366s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/environment/path.dsv
+[23.377s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/local_setup.bash
+[23.388s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/local_setup.sh
+[23.399s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/local_setup.zsh
+[23.411s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/local_setup.dsv
+[23.423s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/package.dsv
+[23.435s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/ament_index/resource_index/packages/canopen_core
+[23.446s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/ConfigExtras.cmake
+[23.457s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.468s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_libraries-extras.cmake
+[23.479s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_targets-extras.cmake
+[23.492s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.504s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig.cmake
+[23.515s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig-version.cmake
+[23.526s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/package.xml
+[23.539s] -- Installing: /home/rudranil/oddity_rover/install/canopen_core/lib/libnode_canopen_driver.so
+[23.542s] -- Set runtime path of "/home/rudranil/oddity_rover/install/canopen_core/lib/libnode_canopen_driver.so" to ""
+[23.542s] -- Installing: /home/rudranil/oddity_rover/install/canopen_core/lib/libnode_canopen_master.so
+[23.543s] -- Set runtime path of "/home/rudranil/oddity_rover/install/canopen_core/lib/libnode_canopen_master.so" to ""
+[23.543s] -- Installing: /home/rudranil/oddity_rover/install/canopen_core/lib/libdevice_container.so
+[23.546s] -- Set runtime path of "/home/rudranil/oddity_rover/install/canopen_core/lib/libdevice_container.so" to ""
+[23.546s] -- Installing: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/export_canopen_coreExport.cmake
+[23.546s] -- Installing: /home/rudranil/oddity_rover/install/canopen_core/share/canopen_core/cmake/export_canopen_coreExport-noconfig.cmake
+[23.550s] Invoked command in '/home/rudranil/oddity_rover/build/canopen_core' returned '0': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudranil/oddity_rover/build/canopen_core

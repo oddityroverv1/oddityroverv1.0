@@ -1,0 +1,4 @@
+source;share/martian_environment/local_setup.bash
+source;share/martian_environment/local_setup.dsv
+source;share/martian_environment/local_setup.sh
+source;share/martian_environment/local_setup.zsh

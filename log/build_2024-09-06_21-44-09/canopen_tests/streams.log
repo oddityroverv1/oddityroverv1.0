@@ -1,0 +1,492 @@
+[0.042s] Invoking command in '/home/rudranil/oddity_rover/build/canopen_tests': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers/lib:/home/rudranil/oddity_rover/install/canopen_402_driver/lib:/home/rudranil/oddity_rover/install/canopen_proxy_driver/lib:/home/rudranil/oddity_rover/install/canopen_base_driver/lib:/home/rudranil/oddity_rover/install/canopen_core/lib:/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rudranil/oddity_rover/src/ros2_canopen/canopen_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudranil/oddity_rover/install/canopen_tests
+[0.111s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.280s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.390s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.557s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.622s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.688s] -- Found lely_core_libraries: 0.2.11 (/home/rudranil/oddity_rover/install/lely_core_libraries/share/lely_core_libraries/cmake)
+[0.759s] -- Configuring done
+[0.770s] -- Generating done
+[0.772s] -- Build files have been written to: /home/rudranil/oddity_rover/build/canopen_tests
+[0.776s] Invoked command in '/home/rudranil/oddity_rover/build/canopen_tests' returned '0': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers/lib:/home/rudranil/oddity_rover/install/canopen_402_driver/lib:/home/rudranil/oddity_rover/install/canopen_proxy_driver/lib:/home/rudranil/oddity_rover/install/canopen_base_driver/lib:/home/rudranil/oddity_rover/install/canopen_core/lib:/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rudranil/oddity_rover/src/ros2_canopen/canopen_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudranil/oddity_rover/install/canopen_tests
+[0.778s] Invoking command in '/home/rudranil/oddity_rover/build/canopen_tests': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers/lib:/home/rudranil/oddity_rover/install/canopen_402_driver/lib:/home/rudranil/oddity_rover/install/canopen_proxy_driver/lib:/home/rudranil/oddity_rover/install/canopen_base_driver/lib:/home/rudranil/oddity_rover/install/canopen_core/lib:/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudranil/oddity_rover/build/canopen_tests -- -j12 -l12
+[0.856s] Built target canopen_system_prepare
+[0.856s] Built target robot_control_prepare
+[0.856s] Built target cia402_system_prepare
+[0.856s] Built target simple_prepare
+[0.857s] Built target cia402_diagnostics_prepare
+[0.857s] Built target cia402_lifecycle_prepare
+[0.857s] Built target simple_lifecycle_prepare
+[0.858s] Built target cia402_namespaced_system_prepare
+[0.860s] Built target simple_diagnostics_prepare
+[0.864s] Built target cia402_prepare
+[1.435s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 80
+[1.435s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[1.435s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.436s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.436s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[1.436s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[1.436s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 80
+[1.436s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[1.436s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.436s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.436s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[1.436s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[1.437s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 80
+[1.437s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[1.437s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.437s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.437s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[1.437s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[1.437s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 80
+[1.437s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[1.437s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.437s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.438s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[1.438s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[1.438s] cia402_device_1: writing 4 bytes to 0x1802/1: 82 03 00 C0
+[1.438s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[1.438s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[1.499s] Built target simple_lifecycle
+[1.682s] Built target canopen_system
+[1.727s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[1.727s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.727s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.727s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[1.727s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[1.727s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[1.727s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.727s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.728s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[1.728s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[1.728s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[1.728s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.728s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.728s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[1.728s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[1.728s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[1.728s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.729s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.729s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[1.729s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[1.729s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[1.729s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[1.729s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.729s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.739s] joint_1: writing 4 bytes to 0x1400/1: 02 02 00 80
+[1.739s] joint_1: writing 1 bytes to 0x1600/0: 00
+[1.739s] joint_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.739s] joint_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.739s] joint_1: writing 1 bytes to 0x1600/0: 02
+[1.739s] joint_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[1.740s] joint_1: writing 4 bytes to 0x1401/1: 02 03 00 80
+[1.740s] joint_1: writing 1 bytes to 0x1601/0: 00
+[1.740s] joint_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.740s] joint_1: writing 1 bytes to 0x1601/0: 01
+[1.740s] joint_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[1.740s] joint_1: writing 4 bytes to 0x1800/1: 82 01 00 80
+[1.741s] joint_1: writing 1 bytes to 0x1800/2: 01
+[1.741s] joint_1: writing 1 bytes to 0x1A00/0: 00
+[1.741s] joint_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.741s] joint_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.741s] joint_1: writing 1 bytes to 0x1A00/0: 02
+[1.741s] joint_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[1.741s] joint_1: writing 4 bytes to 0x1801/1: 82 02 00 80
+[1.741s] joint_1: writing 1 bytes to 0x1801/2: 01
+[1.741s] joint_1: writing 1 bytes to 0x1A01/0: 00
+[1.741s] joint_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.742s] joint_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.742s] joint_1: writing 1 bytes to 0x1A01/0: 02
+[1.742s] joint_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[1.742s] joint_1: writing 1 bytes to 0x60C2/1: 32
+[1.742s] joint_1: writing 1 bytes to 0x60C2/2: FD
+[1.742s] joint_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.742s] joint_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.742s] joint_1: writing 1 bytes to 0x6060/0: 07
+[1.742s] joint_2: writing 4 bytes to 0x1400/1: 03 02 00 80
+[1.742s] joint_2: writing 1 bytes to 0x1600/0: 00
+[1.743s] joint_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.743s] joint_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.743s] joint_2: writing 1 bytes to 0x1600/0: 02
+[1.743s] joint_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+[1.743s] joint_2: writing 4 bytes to 0x1401/1: 03 03 00 80
+[1.743s] joint_2: writing 1 bytes to 0x1601/0: 00
+[1.743s] joint_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.743s] joint_2: writing 1 bytes to 0x1601/0: 01
+[1.743s] joint_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+[1.743s] joint_2: writing 4 bytes to 0x1800/1: 83 01 00 80
+[1.744s] joint_2: writing 1 bytes to 0x1800/2: 01
+[1.744s] joint_2: writing 1 bytes to 0x1A00/0: 00
+[1.744s] joint_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.744s] joint_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.744s] joint_2: writing 1 bytes to 0x1A00/0: 02
+[1.744s] joint_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+[1.744s] joint_2: writing 4 bytes to 0x1801/1: 83 02 00 80
+[1.744s] joint_2: writing 1 bytes to 0x1801/2: 01
+[1.744s] joint_2: writing 1 bytes to 0x1A01/0: 00
+[1.744s] joint_2: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.745s] joint_2: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.745s] joint_2: writing 1 bytes to 0x1A01/0: 02
+[1.745s] joint_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+[1.745s] joint_2: writing 1 bytes to 0x60C2/1: 32
+[1.745s] joint_2: writing 1 bytes to 0x60C2/2: FD
+[1.745s] joint_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.745s] joint_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.745s] joint_2: writing 1 bytes to 0x6060/0: 07
+[1.745s] Built target simple
+[1.824s] Built target cia402_lifecycle
+[1.851s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[1.851s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.851s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.851s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[1.851s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[1.851s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[1.851s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.851s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.852s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[1.852s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[1.852s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[1.852s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.852s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.852s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[1.852s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[1.852s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[1.852s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.852s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.852s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[1.852s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[1.853s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[1.853s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[1.853s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.853s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.954s] Built target simple_diagnostics
+[1.973s] Built target cia402_namespaced_system
+[1.981s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[1.981s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.981s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.982s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[1.982s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[1.982s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[1.982s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.982s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.982s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[1.982s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[1.982s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[1.982s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.982s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.982s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[1.983s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[1.983s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[1.983s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.983s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.983s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[1.983s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[1.983s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[1.983s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[1.983s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.983s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.983s] cia402_device_2: writing 1 bytes to 0x1600/0: 00
+[1.984s] cia402_device_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.984s] cia402_device_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.984s] cia402_device_2: writing 1 bytes to 0x1600/0: 02
+[1.984s] cia402_device_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+[1.984s] cia402_device_2: writing 1 bytes to 0x1601/0: 00
+[1.984s] cia402_device_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.984s] cia402_device_2: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.984s] cia402_device_2: writing 1 bytes to 0x1601/0: 02
+[1.984s] cia402_device_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+[1.984s] cia402_device_2: writing 1 bytes to 0x1A00/0: 00
+[1.984s] cia402_device_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.984s] cia402_device_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.985s] cia402_device_2: writing 1 bytes to 0x1A00/0: 02
+[1.985s] cia402_device_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+[1.985s] cia402_device_2: writing 1 bytes to 0x1A01/0: 00
+[1.985s] cia402_device_2: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.985s] cia402_device_2: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.985s] cia402_device_2: writing 1 bytes to 0x1A01/0: 02
+[1.985s] cia402_device_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+[1.985s] cia402_device_2: writing 1 bytes to 0x60C2/1: 32
+[1.985s] cia402_device_2: writing 1 bytes to 0x60C2/2: FD
+[1.985s] cia402_device_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.985s] cia402_device_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.985s] cia402_device_3: writing 1 bytes to 0x1600/0: 00
+[1.985s] cia402_device_3: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.986s] cia402_device_3: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.986s] cia402_device_3: writing 1 bytes to 0x1600/0: 02
+[1.986s] cia402_device_3: writing 4 bytes to 0x1400/1: 04 02 00 00
+[1.986s] cia402_device_3: writing 1 bytes to 0x1601/0: 00
+[1.986s] cia402_device_3: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.986s] cia402_device_3: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.986s] cia402_device_3: writing 1 bytes to 0x1601/0: 02
+[1.986s] cia402_device_3: writing 4 bytes to 0x1401/1: 04 03 00 00
+[1.986s] cia402_device_3: writing 1 bytes to 0x1A00/0: 00
+[1.986s] cia402_device_3: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.986s] cia402_device_3: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.986s] cia402_device_3: writing 1 bytes to 0x1A00/0: 02
+[1.987s] cia402_device_3: writing 4 bytes to 0x1800/1: 84 01 00 00
+[1.987s] cia402_device_3: writing 1 bytes to 0x1A01/0: 00
+[1.987s] cia402_device_3: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.987s] cia402_device_3: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.987s] cia402_device_3: writing 1 bytes to 0x1A01/0: 02
+[1.987s] cia402_device_3: writing 4 bytes to 0x1801/1: 84 02 00 00
+[1.987s] cia402_device_3: writing 1 bytes to 0x60C2/1: 32
+[1.987s] cia402_device_3: writing 1 bytes to 0x60C2/2: FD
+[1.987s] cia402_device_3: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.987s] cia402_device_3: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.005s] Built target robot_control
+[2.063s] Built target cia402_system
+[2.069s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[2.070s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.070s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.070s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[2.070s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[2.070s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[2.070s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.070s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.070s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[2.071s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[2.071s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[2.071s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.071s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.071s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[2.071s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[2.071s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[2.071s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.071s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.071s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[2.071s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[2.071s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[2.071s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[2.071s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.072s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.072s] cia402_device_2: writing 1 bytes to 0x1600/0: 00
+[2.072s] cia402_device_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.072s] cia402_device_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.072s] cia402_device_2: writing 1 bytes to 0x1600/0: 02
+[2.072s] cia402_device_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+[2.072s] cia402_device_2: writing 1 bytes to 0x1601/0: 00
+[2.072s] cia402_device_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.072s] cia402_device_2: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.072s] cia402_device_2: writing 1 bytes to 0x1601/0: 02
+[2.072s] cia402_device_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+[2.072s] cia402_device_2: writing 1 bytes to 0x1A00/0: 00
+[2.072s] cia402_device_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.072s] cia402_device_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.072s] cia402_device_2: writing 1 bytes to 0x1A00/0: 02
+[2.072s] cia402_device_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+[2.072s] cia402_device_2: writing 1 bytes to 0x1A01/0: 00
+[2.072s] cia402_device_2: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.072s] cia402_device_2: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.072s] cia402_device_2: writing 1 bytes to 0x1A01/0: 02
+[2.072s] cia402_device_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+[2.073s] cia402_device_2: writing 1 bytes to 0x60C2/1: 32
+[2.073s] cia402_device_2: writing 1 bytes to 0x60C2/2: FD
+[2.073s] cia402_device_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.073s] cia402_device_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.073s] cia402_device_3: writing 1 bytes to 0x1600/0: 00
+[2.073s] cia402_device_3: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.073s] cia402_device_3: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.073s] cia402_device_3: writing 1 bytes to 0x1600/0: 02
+[2.073s] cia402_device_3: writing 4 bytes to 0x1400/1: 04 02 00 00
+[2.073s] cia402_device_3: writing 1 bytes to 0x1601/0: 00
+[2.073s] cia402_device_3: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.073s] cia402_device_3: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.073s] cia402_device_3: writing 1 bytes to 0x1601/0: 02
+[2.073s] cia402_device_3: writing 4 bytes to 0x1401/1: 04 03 00 00
+[2.073s] cia402_device_3: writing 1 bytes to 0x1A00/0: 00
+[2.073s] cia402_device_3: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.073s] cia402_device_3: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.073s] cia402_device_3: writing 1 bytes to 0x1A00/0: 02
+[2.073s] cia402_device_3: writing 4 bytes to 0x1800/1: 84 01 00 00
+[2.073s] cia402_device_3: writing 1 bytes to 0x1A01/0: 00
+[2.073s] cia402_device_3: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.073s] cia402_device_3: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.074s] cia402_device_3: writing 1 bytes to 0x1A01/0: 02
+[2.074s] cia402_device_3: writing 4 bytes to 0x1801/1: 84 02 00 00
+[2.074s] cia402_device_3: writing 1 bytes to 0x60C2/1: 32
+[2.074s] cia402_device_3: writing 1 bytes to 0x60C2/2: FD
+[2.074s] cia402_device_3: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.074s] cia402_device_3: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.074s] cia402_device_4: writing 1 bytes to 0x1600/0: 00
+[2.074s] cia402_device_4: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.074s] cia402_device_4: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.074s] cia402_device_4: writing 1 bytes to 0x1600/0: 02
+[2.074s] cia402_device_4: writing 4 bytes to 0x1400/1: 05 02 00 00
+[2.074s] cia402_device_4: writing 1 bytes to 0x1601/0: 00
+[2.074s] cia402_device_4: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.074s] cia402_device_4: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.074s] cia402_device_4: writing 1 bytes to 0x1601/0: 02
+[2.074s] cia402_device_4: writing 4 bytes to 0x1401/1: 05 03 00 00
+[2.074s] cia402_device_4: writing 1 bytes to 0x1A00/0: 00
+[2.074s] cia402_device_4: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.074s] cia402_device_4: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.074s] cia402_device_4: writing 1 bytes to 0x1A00/0: 02
+[2.075s] cia402_device_4: writing 4 bytes to 0x1800/1: 85 01 00 00
+[2.075s] cia402_device_4: writing 1 bytes to 0x1A01/0: 00
+[2.075s] cia402_device_4: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.075s] cia402_device_4: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.075s] cia402_device_4: writing 1 bytes to 0x1A01/0: 02
+[2.075s] cia402_device_4: writing 4 bytes to 0x1801/1: 85 02 00 00
+[2.075s] cia402_device_4: writing 1 bytes to 0x60C2/1: 32
+[2.075s] cia402_device_4: writing 1 bytes to 0x60C2/2: FD
+[2.075s] cia402_device_4: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.075s] cia402_device_4: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.075s] cia402_device_5: writing 1 bytes to 0x1600/0: 00
+[2.075s] cia402_device_5: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.075s] cia402_device_5: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.075s] cia402_device_5: writing 1 bytes to 0x1600/0: 02
+[2.075s] cia402_device_5: writing 4 bytes to 0x1400/1: 06 02 00 00
+[2.075s] cia402_device_5: writing 1 bytes to 0x1601/0: 00
+[2.075s] cia402_device_5: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.075s] cia402_device_5: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.075s] cia402_device_5: writing 1 bytes to 0x1601/0: 02
+[2.075s] cia402_device_5: writing 4 bytes to 0x1401/1: 06 03 00 00
+[2.075s] cia402_device_5: writing 1 bytes to 0x1A00/0: 00
+[2.076s] cia402_device_5: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.076s] cia402_device_5: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.076s] cia402_device_5: writing 1 bytes to 0x1A00/0: 02
+[2.076s] cia402_device_5: writing 4 bytes to 0x1800/1: 86 01 00 00
+[2.076s] cia402_device_5: writing 1 bytes to 0x1A01/0: 00
+[2.076s] cia402_device_5: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.076s] cia402_device_5: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.076s] cia402_device_5: writing 1 bytes to 0x1A01/0: 02
+[2.076s] cia402_device_5: writing 4 bytes to 0x1801/1: 86 02 00 00
+[2.076s] cia402_device_5: writing 1 bytes to 0x60C2/1: 32
+[2.076s] cia402_device_5: writing 1 bytes to 0x60C2/2: FD
+[2.076s] cia402_device_5: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.076s] cia402_device_5: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.076s] cia402_device_6: writing 1 bytes to 0x1600/0: 00
+[2.076s] cia402_device_6: writing 4 bytes to 0x1600/1: 10 00 40 60
+[2.076s] cia402_device_6: writing 4 bytes to 0x1600/2: 08 00 60 60
+[2.076s] cia402_device_6: writing 1 bytes to 0x1600/0: 02
+[2.076s] cia402_device_6: writing 4 bytes to 0x1400/1: 07 02 00 00
+[2.076s] cia402_device_6: writing 1 bytes to 0x1601/0: 00
+[2.076s] cia402_device_6: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[2.076s] cia402_device_6: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[2.077s] cia402_device_6: writing 1 bytes to 0x1601/0: 02
+[2.077s] cia402_device_6: writing 4 bytes to 0x1401/1: 07 03 00 00
+[2.077s] cia402_device_6: writing 1 bytes to 0x1A00/0: 00
+[2.077s] cia402_device_6: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[2.077s] cia402_device_6: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[2.077s] cia402_device_6: writing 1 bytes to 0x1A00/0: 02
+[2.077s] cia402_device_6: writing 4 bytes to 0x1800/1: 87 01 00 00
+[2.077s] cia402_device_6: writing 1 bytes to 0x1A01/0: 00
+[2.077s] cia402_device_6: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[2.077s] cia402_device_6: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[2.077s] cia402_device_6: writing 1 bytes to 0x1A01/0: 02
+[2.077s] cia402_device_6: writing 4 bytes to 0x1801/1: 87 02 00 00
+[2.077s] cia402_device_6: writing 1 bytes to 0x60C2/1: 32
+[2.077s] cia402_device_6: writing 1 bytes to 0x60C2/2: FD
+[2.077s] cia402_device_6: writing 4 bytes to 0x6081/0: E8 03 00 00
+[2.077s] cia402_device_6: writing 4 bytes to 0x6083/0: D0 07 00 00
+[2.185s] Built target cia402_diagnostics
+[2.291s] Built target cia402
+[2.307s] Invoked command in '/home/rudranil/oddity_rover/build/canopen_tests' returned '0': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers/lib:/home/rudranil/oddity_rover/install/canopen_402_driver/lib:/home/rudranil/oddity_rover/install/canopen_proxy_driver/lib:/home/rudranil/oddity_rover/install/canopen_base_driver/lib:/home/rudranil/oddity_rover/install/canopen_core/lib:/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudranil/oddity_rover/build/canopen_tests -- -j12 -l12
+[2.363s] Invoking command in '/home/rudranil/oddity_rover/build/canopen_tests': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers/lib:/home/rudranil/oddity_rover/install/canopen_402_driver/lib:/home/rudranil/oddity_rover/install/canopen_proxy_driver/lib:/home/rudranil/oddity_rover/install/canopen_base_driver/lib:/home/rudranil/oddity_rover/install/canopen_core/lib:/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudranil/oddity_rover/build/canopen_tests
+[2.372s] -- Install configuration: ""
+[2.372s] -- Execute custom install script
+[2.373s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple//simple.eds
+[2.385s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple//bus.yml
+[2.396s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple//master.dcf
+[2.410s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/canopen_system//ros2_controllers.yaml
+[2.422s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/canopen_system//simple.eds
+[2.435s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/canopen_system//bus.yml
+[2.446s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/canopen_system//master.dcf
+[2.459s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_system//cia402_slave.eds
+[2.473s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_system//ros2_controllers.yaml
+[2.486s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_system//bus.yml
+[2.498s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_system//cia402_device_1.bin
+[2.509s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_system//master.dcf
+[2.521s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_system//preprocessed_bus.yml
+[2.535s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//cia402_slave.eds
+[2.547s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//ros2_controllers.yaml
+[2.560s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//bus.yml
+[2.572s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//cia402_device_1.bin
+[2.584s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//master.dcf
+[2.597s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_namespaced_system//preprocessed_bus.yml
+[2.610s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//cia402_slave.eds
+[2.623s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//bus.yml
+[2.636s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_1.bin
+[2.649s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_2.bin
+[2.662s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_3.bin
+[2.673s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_4.bin
+[2.685s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_5.bin
+[2.698s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_6.bin
+[2.711s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//master.dcf
+[2.724s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402//preprocessed_bus.yml
+[2.738s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//cia402_slave.eds
+[2.752s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//bus.yml
+[2.764s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//cia402_device_1.bin
+[2.777s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//master.dcf
+[2.790s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_slave.eds
+[2.804s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//bus.yml
+[2.817s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_device_1.bin
+[2.830s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_device_2.bin
+[2.843s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_device_3.bin
+[2.855s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//master.dcf
+[2.867s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//preprocessed_bus.yml
+[2.881s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple_lifecycle//simple.eds
+[2.895s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple_lifecycle//bus.yml
+[2.908s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple_lifecycle//master.dcf
+[2.922s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//simple.eds
+[2.936s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//bus.yml
+[2.948s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//master.dcf
+[2.960s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//preprocessed_bus.yml
+[2.973s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/robot_control//cia402_slave.eds
+[2.986s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/robot_control//prbt_0_1.dcf
+[2.999s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/robot_control//ros2_controllers.yaml
+[3.013s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/robot_control//bus.yml
+[3.025s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/robot_control//joint_1.bin
+[3.039s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/robot_control//joint_2.bin
+[3.052s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/config/robot_control//master.dcf
+[3.066s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/analyzers/cia402_diagnostic_analyzer.yaml
+[3.080s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/analyzers/proxy_diagnostic_analyzer.yaml
+[3.092s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/canopen_system.launch.py
+[3.104s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/cia402_diagnostics_setup.launch.py
+[3.116s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/cia402_lifecycle_setup.launch.py
+[3.128s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/cia402_namespaced_system.launch.py
+[3.140s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/cia402_setup.launch.py
+[3.151s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/cia402_system.launch.py
+[3.164s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/proxy_diagnostics_setup.launch.py
+[3.176s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/proxy_lifecycle_setup.launch.py
+[3.189s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/proxy_setup.launch.py
+[3.202s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/robot_control_setup.launch.py
+[3.214s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch/view_urdf.launch.py
+[3.224s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/rviz/robot_controller.rviz
+[3.237s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/urdf/canopen_system/canopen_system.ros2_control.xacro
+[3.249s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/urdf/canopen_system/canopen_system.urdf.xacro
+[3.262s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/urdf/cia402_system/cia402_system.ros2_control.xacro
+[3.275s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/urdf/cia402_system/cia402_system.urdf.xacro
+[3.288s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/urdf/robot_controller/robot_controller.macro.xacro
+[3.300s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/urdf/robot_controller/robot_controller.ros2_control.xacro
+[3.313s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/urdf/robot_controller/robot_controller.urdf.xacro
+[3.326s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch_tests/test_cia402_driver.py
+[3.339s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch_tests/test_proxy_driver.py
+[3.351s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch_tests/test_proxy_lifecycle_driver.py
+[3.364s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/launch_tests/test_robot_control.py
+[3.377s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/ament_index/resource_index/package_run_dependencies/canopen_tests
+[3.389s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/ament_index/resource_index/parent_prefix_path/canopen_tests
+[3.402s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/environment/ament_prefix_path.sh
+[3.413s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/environment/ament_prefix_path.dsv
+[3.425s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/environment/path.sh
+[3.438s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/environment/path.dsv
+[3.451s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/local_setup.bash
+[3.464s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/local_setup.sh
+[3.476s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/local_setup.zsh
+[3.488s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/local_setup.dsv
+[3.500s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/package.dsv
+[3.513s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/ament_index/resource_index/packages/canopen_tests
+[3.525s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/cmake/canopen_testsConfig.cmake
+[3.539s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/cmake/canopen_testsConfig-version.cmake
+[3.550s] -- Symlinking: /home/rudranil/oddity_rover/install/canopen_tests/share/canopen_tests/package.xml
+[3.567s] Invoked command in '/home/rudranil/oddity_rover/build/canopen_tests' returned '0': AMENT_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers:/home/rudranil/oddity_rover/install/canopen_402_driver:/home/rudranil/oddity_rover/install/canopen_proxy_driver:/home/rudranil/oddity_rover/install/canopen_base_driver:/home/rudranil/oddity_rover/install/canopen_fake_slaves:/home/rudranil/oddity_rover/install/canopen_core:/home/rudranil/oddity_rover/install/lely_core_libraries:/home/rudranil/oddity_rover/install/canopen_interfaces:/home/rudranil/lb_ws/install/ur_simulation_gazebo:/home/rudranil/lb_ws/install/ur_moveit_config:/home/rudranil/lb_ws/install/ur_description:/home/rudranil/lb_ws/install/realsense_gazebo_plugin:/home/rudranil/lb_ws/install/pymoveit2:/home/rudranil/lb_ws/install/linkattacher_msgs:/home/rudranil/lb_ws/install/eyantra_warehouse:/home/rudranil/lb_ws/install/ebot_nav2:/home/rudranil/lb_ws/install/ebot_description:/home/rudranil/oddity_rover/install/my_gazebo_package:/home/rudranil/oddity_rover/install/martian_environment:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/rudranil/oddity_rover/install/canopen_ros2_controllers/lib:/home/rudranil/oddity_rover/install/canopen_402_driver/lib:/home/rudranil/oddity_rover/install/canopen_proxy_driver/lib:/home/rudranil/oddity_rover/install/canopen_base_driver/lib:/home/rudranil/oddity_rover/install/canopen_core/lib:/home/rudranil/oddity_rover/install/lely_core_libraries/lib:/home/rudranil/oddity_rover/install/canopen_interfaces/lib:/home/rudranil/lb_ws/install/realsense_gazebo_plugin/lib:/home/rudranil/lb_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/rudranil/oddity_rover/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/rudranil/oddity_rover/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/rudranil/oddity_rover/install/lely_core_libraries/lib/python3.10/site-packages:/home/rudranil/oddity_rover/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudranil/oddity_rover/build/canopen_tests

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+canopen_utils/__init__.py
+canopen_utils/cyclic_tester.py
+canopen_utils/launch_test_node.py
+canopen_utils/simple_rpdo_tpdo_tester.py
+canopen_utils/test_node.py
+canopen_utils.egg-info/PKG-INFO
+canopen_utils.egg-info/SOURCES.txt
+canopen_utils.egg-info/dependency_links.txt
+canopen_utils.egg-info/entry_points.txt
+canopen_utils.egg-info/requires.txt
+canopen_utils.egg-info/top_level.txt
+canopen_utils.egg-info/zip-safe
+resource/canopen_utils

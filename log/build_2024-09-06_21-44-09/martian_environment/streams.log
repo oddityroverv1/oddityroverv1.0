@@ -1,0 +1,48 @@
+[0.023s] Invoking command in '/home/rudranil/oddity_rover/build/martian_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake /home/rudranil/oddity_rover/src/martian_environment -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudranil/oddity_rover/install/martian_environment
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.207s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.359s] -- Detecting CXX compiler ABI info
+[0.498s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.509s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.516s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.756s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.856s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.030s] -- Configuring done
+[1.034s] -- Generating done
+[1.035s] -- Build files have been written to: /home/rudranil/oddity_rover/build/martian_environment
+[1.043s] Invoked command in '/home/rudranil/oddity_rover/build/martian_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake /home/rudranil/oddity_rover/src/martian_environment -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rudranil/oddity_rover/install/martian_environment
+[1.047s] Invoking command in '/home/rudranil/oddity_rover/build/martian_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake --build /home/rudranil/oddity_rover/build/martian_environment -- -j12 -l12
+[1.120s] Invoked command in '/home/rudranil/oddity_rover/build/martian_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake --build /home/rudranil/oddity_rover/build/martian_environment -- -j12 -l12
+[1.183s] Invoking command in '/home/rudranil/oddity_rover/build/martian_environment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake --install /home/rudranil/oddity_rover/build/martian_environment
+[1.198s] -- Install configuration: ""
+[1.199s] -- Execute custom install script
+[1.200s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/launch/mars_simulation.launch.py
+[1.218s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/mars_surface/scripts/repeated.material
+[1.236s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/mars_surface/terrain.dae
+[1.253s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/mars_surface/textures/redsoil.png
+[1.270s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/model.config
+[1.289s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/model.sdf
+[1.307s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/worlds/martian_world.world
+[1.324s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/ament_index/resource_index/package_run_dependencies/martian_environment
+[1.343s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/ament_index/resource_index/parent_prefix_path/martian_environment
+[1.362s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/environment/ament_prefix_path.sh
+[1.379s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/environment/ament_prefix_path.dsv
+[1.397s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/environment/path.sh
+[1.415s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/environment/path.dsv
+[1.433s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/local_setup.bash
+[1.450s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/local_setup.sh
+[1.469s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/local_setup.zsh
+[1.487s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/local_setup.dsv
+[1.506s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/package.dsv
+[1.522s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/ament_index/resource_index/packages/martian_environment
+[1.540s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/cmake/martian_environmentConfig.cmake
+[1.559s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/cmake/martian_environmentConfig-version.cmake
+[1.576s] -- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/package.xml
+[1.599s] Invoked command in '/home/rudranil/oddity_rover/build/martian_environment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rudranil/lb_ws/install/ur5_control:/home/rudranil/ros2_ws/install/mini_bot_description:/opt/ros/humble /usr/bin/cmake --install /home/rudranil/oddity_rover/build/martian_environment

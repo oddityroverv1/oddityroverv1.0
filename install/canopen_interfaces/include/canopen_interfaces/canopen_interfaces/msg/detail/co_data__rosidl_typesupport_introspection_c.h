@@ -1,0 +1,1 @@
+/home/rudranil/oddity_rover/build/canopen_interfaces/rosidl_typesupport_introspection_c/canopen_interfaces/msg/detail/co_data__rosidl_typesupport_introspection_c.h

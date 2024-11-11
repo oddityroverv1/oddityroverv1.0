@@ -1,0 +1,42 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rudranil/oddity_rover/build/martian_environment
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/launch/mars_simulation.launch.py
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/mars_surface/scripts/repeated.material
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/mars_surface/terrain.dae
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/mars_surface/textures/redsoil.png
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/model.config
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/models/mars/model.sdf
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/worlds/martian_world.world
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/ament_index/resource_index/package_run_dependencies/martian_environment
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/ament_index/resource_index/parent_prefix_path/martian_environment
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/environment/ament_prefix_path.sh
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/environment/path.sh
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/environment/path.dsv
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/local_setup.bash
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/local_setup.sh
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/local_setup.zsh
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/local_setup.dsv
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/package.dsv
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/ament_index/resource_index/packages/martian_environment
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/cmake/martian_environmentConfig.cmake
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/cmake/martian_environmentConfig-version.cmake
+-- Symlinking: /home/rudranil/oddity_rover/install/martian_environment/share/martian_environment/package.xml
